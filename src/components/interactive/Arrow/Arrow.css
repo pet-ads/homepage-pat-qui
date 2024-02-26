@@ -1,0 +1,79 @@
+.home-arrow {
+  width: 18px;
+  height: 18px;
+  display: block;
+  animation: bounce 1s infinite;
+  transition: border-color 0.3s, transform 0.3s;
+  border-right: 4px solid var(--cor-azul__claro);
+  border-bottom: 4px solid var(--cor-azul__claro);
+}
+
+.scroll-arrow:hover .arrow {
+  border-color: #888;
+}
+
+.conteiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.CollapsibleTriggerContainer {
+  display: flex;
+  cursor: pointer;
+  justify-self: center;
+}
+
+.collapsible-arrow{
+  width: 50px;
+  height: 50px;
+  animation: animation 1s infinite;
+}
+.collapsible-arrow:hover{
+  cursor: pointer;
+}
+
+.collapsibleOpen-arrow{
+  width: 50px;
+  height: 50px;
+  animation: animation 1s infinite;
+}
+.collapsibleOpen-arrow:hover{
+  cursor:pointer;
+}
+
+@keyframes bounce {
+  0% {
+      transform: translateY(0) rotate(45deg);
+  }
+
+  50% {
+      transform: translateY(-5px) rotate(45deg);
+  }
+
+  100% {
+      transform: translateY(0) rotate(45deg);
+  }
+}
+
+@keyframes animation {
+  0% {
+      transform: translateY(0);
+  }
+
+  50% {
+      transform: translateY(-5px);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
+
+
+@media screen and (max-width:300px){
+  .home-arrow{
+      width: 10px;
+      height: 10px;
+  }
+}

@@ -1,0 +1,72 @@
+.scroll-arrow,.scroll-arrow2 {
+  opacity: 0;
+  z-index: 998;
+  cursor: pointer;
+  position: relative;
+  align-self: center;
+  visibility: hidden;
+  justify-self: center;
+  transform: translate(50%, 0%);
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.scroll-arrow{
+  bottom: 40px;
+}
+.scroll-arrow2{
+  bottom: 60px;
+}
+
+.scroll-arrow.visible, .scroll-arrow2.visible {
+  opacity: 1;
+  visibility: visible;
+}
+  
+@media screen and (max-height:600px){
+  .scroll-arrow{
+    bottom: 20px;
+    right: 5px;
+  }
+}
+
+
+@media screen and (max-width:950px) {
+  .scroll-arrow{
+    bottom: -50px;
+    right: 10px;
+  }
+  .scroll-arrow2{
+    top: 0px;
+    right: 10px;
+  }
+  
+}
+@media screen and (max-width:560px){
+.scroll-arrow2{
+    top: -145px;
+  }
+
+}
+
+
+@media screen and (max-width:420px){
+  .scroll-arrow2{
+    top: -55px;
+  }
+
+}
+@media screen and (max-width:380px){
+  .scroll-arrow2{
+    top: -100px;
+  }
+}
+
+@media screen and (max-width:360px){
+  .scroll-arrow{
+    bottom: 0px;
+  }
+  .scroll-arrow2{
+    top: -80px;
+    right: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+.PETLogo {
+  width: 250px;
+  display: flex;
+  height: auto;
+  align-self:center;
+  background-color: white; 
+}
+
+@media screen and (max-width:490px){
+  .PETLogo{
+    width: 180px;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width:340px){
+  .PETLogo{
+    width: 150px;
+  }
+}
+
+@media screen and (max-width:280px){
+  .PETLogo{
+    width: 100px;
+  }
+}

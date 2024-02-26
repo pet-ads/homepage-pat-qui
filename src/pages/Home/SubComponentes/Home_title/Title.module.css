@@ -1,0 +1,96 @@
+.cabecalho {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.title {
+  width: 480px;
+  font-size: 48px;
+  color: var(--cor-azul__claro);
+}
+
+.subtitle {
+  width: 480px;
+  margin-top: -5%;
+  font-size: 30px;
+  color: var(--cor-texto);
+}
+
+.container {
+  width: 80vw; 
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content:space-evenly;
+}
+
+@media only screen and (max-width:1200px){
+  .container{
+    flex-direction: column;  
+  }
+
+}
+
+@media only screen and (max-width: 490px){
+  .title{
+    width: 100%;
+    margin: auto;
+    font-size: 240%;
+    justify-self: flex-start;
+  }
+  .subtitle{
+    width: 100%;
+    margin: auto;
+    font-size: 130%;
+    justify-self: flex-start;
+  }
+}
+
+@media only screen and (max-width: 453px){
+  .title{
+    font-size: 207%;
+  }
+  .subtitle{
+    font-size: 120%;
+  }
+}
+
+@media only screen and (max-width: 391px){
+  .title{
+    font-size: 180%;
+
+  }
+  .subtitle{
+    font-size: 110%;
+  }
+}
+
+@media only screen and (max-width: 340px){
+  .title{
+    font-size: 158%;
+  }
+  .subtitle{
+    font-size: 96%;
+  }
+}
+
+@media screen and (max-width:298px){
+  .title{
+    font-size: 137%;
+  }
+  .subtitle{
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width :258px){
+  .title{
+    font-size: 120%;
+  }
+  .subtitle{
+    font-size: 75%;
+  }
+}

@@ -1,0 +1,72 @@
+.Inscricao {
+    width:100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--cor-detalhes-azul);
+}
+
+.titulo {
+    font-size: 26px;
+    color: var(--cor-texto);
+}
+
+.texto {
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: justify;  
+    color: var(--cor-texto__claro);
+}
+
+.download {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 7px;
+    border: 2px solid var(--cor-detalhes-azul);
+}
+.btnDownload  {
+    width: 35px;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    color:var(--cor-texto)
+}
+
+.encerrado {
+    color: lightpink;
+    text-decoration: line-through;
+}
+
+.email {
+    text-decoration: none;
+    color: var(--cor-detalhes-azul);
+}
+
+.email--link:hover {
+    color: var(--cor-azul__claro);
+}
+
+
+@media screen and (max-width:1200px){
+    .titulo{
+        margin: 2% 2%;
+    }
+    .texto{
+        margin: 0 2%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .titulo{
+        margin: 2% 4%;
+    }
+    .texto{
+        margin: 0 4%;
+       text-align: left;
+    }
+   }
+
