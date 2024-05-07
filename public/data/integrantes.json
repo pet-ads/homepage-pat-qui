@@ -1,0 +1,67 @@
+{
+  "aluno": [
+    {
+      "id": "1",
+      "nome": "Marie Skłodowska-Curie",
+      "foto": "./images/fotos_alunos/Marie-Curie.jpg",
+      "tipo": "Bolsista",
+      "ano": "2024",
+      "github": "",
+      "linkedin": ""
+    },
+    {
+      "id": "2",
+      "nome": "Linus Carl Pauling",
+      "foto": "./images/fotos_alunos/Linus-Pauling.jpg",
+      "tipo": "Bolsista",
+      "ano": "2024",
+      "github": "",
+      "linkedin": ""
+    },
+    {
+      "id": "3",
+      "nome": "Gilbert Newton Lewis",
+      "foto": "./images/fotos_alunos/Gilbert-Lewis.jpeg",
+      "tipo": "Voluntário",
+      "ano": "2024",
+      "github": "",
+      "linkedin": ""
+    }
+  ],
+  "exAlunos": [
+    {
+      "id": "1",
+      "nome": "Dorothy Mary Crowfoot Hodgkin",
+      "foto": "./images/fotos_alunos/Dorothy-Hodgkin.jpg",
+      "tipo": "bolsista",
+      "anos": "2019-2023",
+      "github": "",
+      "linkedin": ""
+    },
+    {
+      "id": "2",
+      "nome": "Robert Wilhelm Eberhard von Bunsen",
+      "foto": "./images/fotos_alunos/Robert-Bunsen.jpg",
+      "tipo": "bolsista",
+      "anos": "2019-2023",
+      "github": "",
+      "linkedin": ""
+    }
+  ],
+  "tutores": [
+    {
+      "nomeTutor": "Antoine-Laurent de Lavoisier",
+      "tipo": "Tutor",
+      "foto": "./images/fotos_tutores/Lavoisier.jpg",
+      "ano": "2023",
+      "github": ""
+    }
+  ],
+  "exTutores": [
+    {
+      "nomeTutor": "John Dalton",
+      "foto": "./images/fotos_tutores/Dalton.jpg",
+      "ano": "2010-2022"
+    }
+  ]
+}

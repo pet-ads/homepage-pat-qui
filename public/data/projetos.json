@@ -1,0 +1,36 @@
+{
+    "projetos": [
+      {
+        "id": "1",
+        "tipo": "ensino",
+        "link": "",
+        "titulo": "Personalidades da Química",
+        "status": "Em andamento",
+        "img": "../src/resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png",
+        "descricao": "Projeto de ensino que visa realizar um levantamento sobre os pioneiros da Química e suas principais contribuições.",
+        "expandido": "O curso de Química possui sólida base teórica de séculos de estudos. Este projeto de ensino tem por objetivo realizar uma pesquisa e sumarização dos pioneiros da Química e suas principais contribuições. Com os resultados dessa pesquisa será realizada uma exposição durante a recepção dos ingressantes do curso de Química do câmpus.",
+        "tecnologias": ""
+      },
+      {
+        "id": "2",
+        "tipo": "extensão-desenvolivmento",
+        "link": "a",
+        "titulo": "Workshop promovido pelo grupo PET/QUI",
+        "status": "Data a definir",
+        "descricao": "Aulas laboratoriais ministradas por alunos e convidados",
+        "expandido": "Tão importante quanto a teoria, atividades prática estimulam a imersão do estudante e o seu domínio das técnicas. Com esses benefícios em mente, será organizado um workshop dividido em 2 dias, onde os interessados poderão entrar em contato e aprender com alguns dos integrantes do grupo PET e outros convidados.",
+        "tecnologias": ""
+      },
+      {
+        "id": "3",
+        "tipo": "ensino",
+        "link": "a",
+        "titulo": "Projeto Leitura Compartilhada",
+        "status": "Contínuo",
+        "descricao": "Projeto de ensino que visa estimular a leitura de clássicos da Química de uma maneira leve e integrada.",
+        "expandido": "A literatura em Ciências Químicas é vasta, antiga e de extrema qualidade. Para estimular ainda mais a leitura, esse projeto de ensino visa realizar um rodízio de leitura no qual cada integrante do PET/QUI lê um capítulo e prepara um material no formato de slides. A cada encontro, os slides são compartilhados em apresentações junto aos demais membros. Ao final da leitura de cada livro, o material desenvolvido será disponibilizado de maneira livre para a comunidade de Química dentro e fora do câmpus.",
+        "tecnologias": ""
+      }
+
+    ]
+  }

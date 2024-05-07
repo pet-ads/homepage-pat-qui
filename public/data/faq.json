@@ -1,0 +1,74 @@
+{
+  "faqs": [
+    {
+      "id": "1",
+      "trigger": " O que é PET?",
+      "resposta": "O PET é um programa no qual um grupo de alunos desenvolve atividades de Ensino, Pesquisa e Extensão sob a tutoria de um docente."
+    },
+    {
+      "id": "2",
+      "trigger": " Quais são as responsabilidades de um membro do PET?",
+      "resposta": "Os membros precisam dedicar-se integralmente às atividades acadêmicas do grupo, além de suas atividades acadêmicas regulares. As atividades do grupo são definidas em conjunto com o tutor, e podem incluir o desenvolvimento de planos de estudos, a criação de atividades de extensão com membros da comunidade acadêmica, desenvolvimento de projetos de pesquisa, a implementação de projetos internos ao PET, entre outras."
+    },
+    {
+      "id": "3",
+      "trigger": " Por que o PET/QUI é uma boa oportunidade para mim?",
+      "resposta": "Os alunos do PET são acompanhados por um tutor para que tenham uma formação integral em Ensino, Pesquisa e Extensão. O tempo dedicado ao programa visa melhorar o desempenho do estudante no curso e fornecer conteúdos adicionais à formação regular. Durante sua participação, o membro desenvolverá projetos práticos, estudará em grupo e atuará em ações que aprimorem seu curso, a instituição e a Sociedade."
+    },
+    {
+      "id": "4",
+      "trigger": " A participação no PET/QUI conta como atividade complementar?",
+      "resposta": "Sim, a participação no programa pode contabilizar até 50 horas de atividades complementares."
+    },
+    {
+      "id": "5",
+      "trigger": " Quais são os pré-requisitos para me tornar um membro do PET/QUI?",
+      "resposta": "Para se juntar ao PET/QUI, é preciso ser estudante do curso de QUI no IFSP Sertãozinho e ser aprovado em um processo seletivo. Os processos de seleção são regidos por editais específicos, publicados sempre que há vagas disponíveis."
+    },
+    {
+      "id": "6",
+      "trigger": " Pessoas que trabalham ou possuem outra bolsa podem participar do PET?",
+      "resposta": "Bolsistas PET não podem ser societários, celetistas ou receber outras bolsas. Essa restrição não se aplica aos voluntários, mas a dedicação mínima de 20h e a exigência de bom rendimento acadêmico tornam a participação no programa pouco viável para alguém com outro vínculo."
+    },
+    {
+      "id": "8",
+      "trigger": " Como funcionam os processos seletivos?",
+      "resposta": "O processo seletivo segue as regras previstas em seu edital. Geralmente, o processo é realizado em duas etapas, que envolvem uma prova e entrevista. Entretanto, isso pode variar de edital para edital."
+    },
+    {
+      "id": "9",
+      "trigger": " Quantas vagas existem no PET/QUI?",
+      "resposta": "Cada grupo PET possui um tutor, até doze bolsistas e até seis voluntários."
+    },
+    {
+      "id": "10",
+      "trigger": " Qual a diferença entre voluntário e bolsista?",
+      "resposta": "Ambos possuem as mesmas responsabilidades dentro do grupo e realizam as mesmas atividades. A única diferença é o recebimento da bolsa."
+    },
+    {
+      "id": "11",
+      "trigger": " Um voluntário pode vir a se tornar bolsista?",
+      "resposta": "Sim! Os alunos que entrarem como voluntários terão a oportunidade de, caso ocorra a desistência de um bolsista, passarem a ser bolsistas. A prioridade de atribuição de bolsa aos voluntários segue a classificação obtida no processo seletivo."
+    },
+    {
+      "id": "12",
+      "trigger": " Qual o valor da bolsa PET?",
+      "resposta": "Atualmente, a bolsa é de R$700 mensais."
+    },
+    {
+      "id": "13",
+      "trigger": " Qual a vigência de uma bolsa PET?",
+      "resposta": "O aluno pode permanecer no PET até a conclusão da graduação, desde que mantenha bom rendimento no programa e cumpra todas as regras previstas em seu termo de compromisso e no Art. 20 da Portaria nº 343, de 24 de abril de 2013."
+    },
+    {
+      "id": "14",
+      "trigger": " Qual a carga horária semanal ao PET?",
+      "resposta": "Os participantes do PET devem dedicar 20h semanais ao programa."
+    },
+    {
+      "id": "15",
+      "trigger": " Membros do PET podem ser desligados do programa?",
+      "resposta": "Para se manter no PET o aluno deve participar de todas as atividades estabelecidas em conjunto com o tutor e comparecer às reuniões de acompanhamento. Caso o membro do PET não possua bom rendimento no programa ou no curso, pode perder o vínculo. Após o ingresso no PET, o membro não pode reprovar em mais de duas disciplinas no curso e deve ter frequência e bom rendimento acadêmico."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+
+.corpo {
+    margin: auto;
+    display: flex;
+    min-height: 80vh;
+    max-width: 1920px;
+    flex-direction: column;
+    background-color: var(--cor-background);
+
+}
+
+.corpo_informacoes{
+    width: 100%;
+    display: flex;
+    min-height: 40vh;
+    max-width: 1050px;
+    align-self: center;
+    margin-bottom: 25vh;
+    flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+
+    .corpo{
+        padding-top: 0;
+    }
+}

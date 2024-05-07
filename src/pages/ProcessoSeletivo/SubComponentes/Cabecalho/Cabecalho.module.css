@@ -1,0 +1,27 @@
+.cabecalho {
+    align-self: center;
+}
+
+.texto {
+    font-size: 20px;
+    max-width: 1050px;
+    line-height: 1.5em;    
+    text-align: justify; 
+    color: var(--cor-texto__claro);
+
+}
+
+@media screen and (max-width:1200px){
+    .texto{
+        margin: 0 2%;
+    }
+}
+
+@media screen and (max-width: 950px){
+
+    .texto{
+        margin: 2% 4%;
+        text-align: left;
+    }
+}
+
