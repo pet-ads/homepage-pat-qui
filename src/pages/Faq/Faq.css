@@ -20,7 +20,7 @@ body {
     flex-direction: row;
     color: var(--cor-detalhes-azul);
     background-color: var(--cor-azul__medio);
-    border-bottom: 2px solid var(--cor-azul__claro);
+    border-bottom: 2px solid #1460a1;
 }
 
 .Collapsible__contentInner {
@@ -30,12 +30,12 @@ body {
     font-size: 17px;
     margin: 0px 80px;
     flex-direction: row;
-    background-color: var(--cor-azul__claro);
-    border-bottom: 2px solid var(--cor-azul__claro);
+    background-color: #1460a1;
+    border-bottom: 2px solid #1460a1;
 }
 
 .faq-resposta {
-    color: var(--cor-background);
+    color: whitesmoke;
     text-align: left;
 }
 
