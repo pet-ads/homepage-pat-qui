@@ -6,7 +6,7 @@ function Inscricoes({titulo,texto_1,email,texto_2,data,estado,texto_3}){
         <div className={styles.Inscricao}>
             <h2 className={styles.titulo}>{titulo}</h2>
             <p className={styles.texto}>
-                {texto_1} <a className={styles.email} href="a">{email}</a>.
+                {texto_1} <a className={styles.email} href={`mailto:${email}`} target='_blank'>{email}</a>.
             </p>
              <p className={styles.texto}>{texto_2} <span className={styles.encerrado}>{data}</span> {estado}</p>
              <p className={styles.texto}>{texto_3} </p>
