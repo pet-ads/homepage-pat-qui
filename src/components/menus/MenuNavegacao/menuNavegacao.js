@@ -1,8 +1,8 @@
-import './menuNavegacao.css';
-import { NavLink } from 'react-router-dom';
-import LogoIFSP from '../../logos/LogoIFSP/LogoIFSP';
-import React, { useEffect, useState } from 'react';
-import MenuMobileDropdown from '../MenuMobile/MenuMobile';
+import "./menuNavegacao.css";
+import { NavLink } from "react-router-dom";
+import LogoIFSP from "../../logos/LogoIFSP/LogoIFSP";
+import React, { useEffect, useState } from "react";
+import MenuMobileDropdown from "../MenuMobile/MenuMobile";
 
 export default function MenuNavegacao() {
   const [larguraJanela, setLarguraJanela] = useState(window.innerWidth);
@@ -12,19 +12,19 @@ export default function MenuNavegacao() {
       setLarguraJanela(window.innerWidth);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   const items = [
-    { path: '/', label: 'Home' },
-    { path: '/projetos', label: 'Projetos' },
-    { path: '/equipe', label: 'Equipe' },
-    { path: '/processo-seletivo', label: 'Processo Seletivo' },
-    { path: '/faq', label: 'FAQ' },
+    { path: "/", label: "Home" },
+    { path: "/projetos", label: "Projetos" },
+    { path: "/equipe", label: "Equipe" },
+    { path: "/processo-seletivo", label: "Processo Seletivo" },
+    { path: "/faq", label: "FAQ" },
   ];
 
   return (

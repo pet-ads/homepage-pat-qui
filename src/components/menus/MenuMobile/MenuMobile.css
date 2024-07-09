@@ -1,4 +1,3 @@
-
 .menu-mobile {
   position: relative;
   display: flex;
@@ -69,7 +68,6 @@
   padding: 10px;
   cursor: pointer;
   transition: background-color 200ms;
-
 }
 
 .list li:hover {
@@ -85,7 +83,7 @@
   z-index: 0;
   cursor: pointer;
 }
- a.dropdown-link{
+a.dropdown-link {
   color: var(--cor-detalhes-azul);
   text-decoration: none;
- }
+}

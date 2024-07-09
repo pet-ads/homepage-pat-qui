@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import styles from './CardAluno.module.css';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import React, { useState } from "react";
+import styles from "./CardAluno.module.css";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const withBlur = { filter: "blur(2px) grayscale(80%) brightness(0.5)" };
 const noBlur = { filter: "blur(0px) grayscale(0%)" };
@@ -23,12 +23,12 @@ function CardAluno({ nome, srcFoto, tipo, github, linkedin }) {
           alt={altFoto}
         />
         <div className={styles.iconWrapper}>
-          <a href={github} target='_blank' rel='noopener noreferrer'>
+          <a href={github} target="_blank" rel="noopener noreferrer">
             <span className={styles.githubIcon}>
               <FaGithub />
             </span>
           </a>
-          <a href={linkedin} target='_blank' rel='noopener noreferrer'>
+          <a href={linkedin} target="_blank" rel="noopener noreferrer">
             <span className={styles.linkedinIcon}>
               <FaLinkedin />
             </span>

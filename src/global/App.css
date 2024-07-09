@@ -1,34 +1,40 @@
-:root{
-  --cor-background:#022D53;
-  --cor-azul__claro: #049DD9;
-  --cor-azul__medio: #034C8C;
+:root {
+  --cor-background: #022d53;
+  --cor-azul__claro: #049dd9;
+  --cor-azul__medio: #034c8c;
   --cor-detalhes-azul: #babbe9;
-  --cor-texto: #B3DCFF;
-  --cor-texto__claro: #E3E8FB;
+  --cor-texto: #b3dcff;
+  --cor-texto__claro: #e3e8fb;
 }
 
 body::-webkit-scrollbar {
-  width: 12px;               
+  width: 12px;
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--cor-background);        
+  background: var(--cor-background);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--cor-azul__claro);    
-  border-radius: 20px;      
-  border: 3px solid var(--cor-background);  
+  background-color: var(--cor-azul__claro);
+  border-radius: 20px;
+  border: 3px solid var(--cor-background);
 }
-body{
+body {
   flex: 1 1 0;
 
-  font-family: -apple-system, BlinkMacSystemFont, 
-  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 
-  'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
-h1::selection, h2::selection, h3::selection, p::selection,
- li::selection, a::selection, pre::selection, span::selection {
+h1::selection,
+h2::selection,
+h3::selection,
+p::selection,
+li::selection,
+a::selection,
+pre::selection,
+span::selection {
   color: white;
   background-color: blue;
 }

@@ -1,70 +1,69 @@
 body {
-    margin: auto;
-    max-width: 1920px;
-    background-color: var(--cor-background);
+  margin: auto;
+  max-width: 1920px;
+  background-color: var(--cor-background);
 }
 
 .faq--caixa__perguntas {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-
 .Collapsible__trigger {
-    display: flex;
-    padding: 15px;
-    flex-wrap: wrap;
-    cursor: pointer;
-    font-size: 18px;
-    margin: 0px 80px;
-    text-indent: 10px;
-    flex-direction: row;
-    color: var(--cor-detalhes-azul);
-    background-color: var(--cor-azul__medio);
-    border-bottom: 2px solid #1460a1;
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0px 80px;
+  text-indent: 10px;
+  flex-direction: row;
+  color: var(--cor-detalhes-azul);
+  background-color: var(--cor-azul__medio);
+  border-bottom: 2px solid #1460a1;
 }
 
 .Collapsible__contentInner {
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 17px;
-    margin: 0px 80px;
-    flex-direction: row;
-    background-color: #1460a1;
-    border-bottom: 2px solid #1460a1;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 17px;
+  margin: 0px 80px;
+  flex-direction: row;
+  background-color: #1460a1;
+  border-bottom: 2px solid #1460a1;
 }
 
 .faq-resposta {
-    color: whitesmoke;
-    text-align: left;
+  color: whitesmoke;
+  text-align: left;
 }
 
 @media (max-width: 1200px) {
-    .Collapsible__trigger {
-        margin: 0px 60px;
-    }
+  .Collapsible__trigger {
+    margin: 0px 60px;
+  }
 
-    .Collapsible__contentInner {
-        margin: 0px 60px;
-    }
+  .Collapsible__contentInner {
+    margin: 0px 60px;
+  }
 }
 
 @media (max-width: 950px) {
-    .Collapsible__trigger {
-        margin: 0px 50px;
-    }
+  .Collapsible__trigger {
+    margin: 0px 50px;
+  }
 
-    .Collapsible__contentInner {
-        margin: 0px 50px;
-    }
+  .Collapsible__contentInner {
+    margin: 0px 50px;
+  }
 }
 
 @media (max-width: 300px) {
-    .Collapsible__trigger {
-        margin: 0px 40px;
-    }
+  .Collapsible__trigger {
+    margin: 0px 40px;
+  }
 
-    .Collapsible__contentInner {
-        margin: 0px 40px;
-    }
+  .Collapsible__contentInner {
+    margin: 0px 40px;
+  }
 }

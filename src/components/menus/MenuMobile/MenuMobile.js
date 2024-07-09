@@ -1,7 +1,7 @@
-import './MenuMobile.css';
-import menuIcon from './menu-icon.png';
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import "./MenuMobile.css";
+import menuIcon from "./menu-icon.png";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const MenuMobileDropdown = ({ items }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -11,7 +11,7 @@ const MenuMobileDropdown = ({ items }) => {
   };
 
   return (
-    <div className={`menu-mobile ${isDropdownOpen ? 'active' : ''}`}>
+    <div className={`menu-mobile ${isDropdownOpen ? "active" : ""}`}>
       <img
         className="menu-icon"
         src={menuIcon}
@@ -29,17 +29,14 @@ const MenuMobileDropdown = ({ items }) => {
           <div className="list">
             <ul>
               {items.map((item) => (
-                 <NavLink
-                 exact
-                 to={item.path}
-                 className="dropdown-link"
-                 activeClassName="active"
-                 onClick={toggleDropdown}
-               >
-                  <li key={item.path}>
-                  
-                      {item.label}
-                  </li>
+                <NavLink
+                  exact
+                  to={item.path}
+                  className="dropdown-link"
+                  activeClassName="active"
+                  onClick={toggleDropdown}
+                >
+                  <li key={item.path}>{item.label}</li>
                 </NavLink>
               ))}
             </ul>
@@ -47,7 +44,9 @@ const MenuMobileDropdown = ({ items }) => {
           <div className="dot"></div>
         </div>
       )}
-      {isDropdownOpen && <div className="cursor" onClick={toggleDropdown}></div>}
+      {isDropdownOpen && (
+        <div className="cursor" onClick={toggleDropdown}></div>
+      )}
     </div>
   );
 };

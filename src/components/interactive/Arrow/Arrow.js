@@ -1,4 +1,4 @@
-import './Arrow.css'
+import "./Arrow.css";
 
 const ArrowShape = ({ customClass }) => {
   return <span className={` ${customClass}`} />;
