@@ -32,7 +32,7 @@ function ProcessoSeletivo() {
             email="petquisrt@gmail.com"
             texto_2="Prazo de inscrição:"
             data="11 à 15 de março de 2024"
-            estado="aberto"
+            estado="encerrado"
             texto_3="Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital:"
           />
         </section>

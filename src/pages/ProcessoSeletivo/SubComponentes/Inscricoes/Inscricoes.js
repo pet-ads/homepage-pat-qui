@@ -49,7 +49,7 @@ function Inscricoes({
       </p>
       {estado.toLowerCase() === "encerrado" ? (
         <p className={styles.texto}>
-          {texto_2} <span className={styles.encerrado}>{data}</span> ({estado}.)
+          {texto_2} <span className={styles.encerrado}>{data}</span> ({estado}).
         </p>
       ) : (
         <p className={styles.texto}>
