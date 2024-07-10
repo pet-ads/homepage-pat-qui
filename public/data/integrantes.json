@@ -50,6 +50,7 @@
   ],
   "tutores": [
     {
+      "id": "1",
       "nomeTutor": "Antoine-Laurent de Lavoisier",
       "tipo": "Tutor",
       "foto": "./images/fotos_tutores/Lavoisier.jpg",
@@ -59,6 +60,7 @@
   ],
   "exTutores": [
     {
+      "id": "1",
       "nomeTutor": "John Dalton",
       "foto": "./images/fotos_tutores/Dalton.jpg",
       "ano": "2010-2022"

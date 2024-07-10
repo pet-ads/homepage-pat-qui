@@ -35,7 +35,7 @@ export default function MenuNavegacao() {
       ) : (
         <ul className="menu-navegacao">
           <li>
-            <NavLink exact to="/" className="menu-navegacao--link">
+            <NavLink to="/" className="menu-navegacao--link">
               Home
             </NavLink>
           </li>

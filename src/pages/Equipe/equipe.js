@@ -58,6 +58,7 @@ export default function Equipe() {
                 <section className="equipe--tutor">
                   {exTutores.map((exTutor) => (
                     <CardExTutores
+                      key={exTutor.id}
                       nome={exTutor.nomeTutor}
                       srcFoto={exTutor.foto}
                       ano={exTutor.ano}
@@ -67,6 +68,7 @@ export default function Equipe() {
                 <section className="equipe--alunos">
                   {exAlunos.map((exAluno) => (
                     <CardExAluno
+                      key={exAluno.id}
                       nome={exAluno.nome}
                       srcFoto={exAluno.foto}
                       anos={exAluno.anos}

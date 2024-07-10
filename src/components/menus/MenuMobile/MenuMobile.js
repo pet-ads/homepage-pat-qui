@@ -30,7 +30,6 @@ const MenuMobileDropdown = ({ items }) => {
             <ul>
               {items.map((item) => (
                 <NavLink
-                  exact
                   to={item.path}
                   className="dropdown-link"
                   activeClassName="active"
