@@ -58,7 +58,7 @@ function Inscricoes({
       )}
       <p className={styles.texto}>{texto_3} </p>
       <p className={styles.download}>
-        <a href="a" rel="noreferrer" target="_blank">
+        <a href="./Documents/EditalFake.pdf" download={"EditalFake.pdf"} rel="noreferrer" target="_blank">
           <AiOutlineCloudDownload className={styles.btnDownload} />
         </a>
       </p>
