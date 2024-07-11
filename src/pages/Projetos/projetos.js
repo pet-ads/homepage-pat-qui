@@ -1,5 +1,5 @@
 import "./projetos.css";
-import React from 'react';
+import React from "react";
 import Header from "../../components/ui/Header/header";
 import useIsMobile from "../../hooks/window/useIsMobile";
 import FetchProj from "../../hooks/fetch/useFetchProjetos";
@@ -13,7 +13,13 @@ export default function Projetos() {
     <>
       <MenuNavegacao />
       <div className="menu-projetos--corpo">
-        <Header texto={isMobile ? "Projetos do PET/QUI" : "Projetos Desenvolvidos pelo PET/QUI"} />
+        <Header
+          texto={
+            isMobile
+              ? "Projetos do PET/QUI"
+              : "Projetos Desenvolvidos pelo PET/QUI"
+          }
+        />
         <section className="menu-projetos">
           <FetchProj
             render={(arrProjetos) =>
@@ -23,17 +29,16 @@ export default function Projetos() {
                   titulo={projetos.titulo}
                   status={projetos.status}
                   tipo={projetos.tipo}
-                  link = {projetos.link}
+                  link={projetos.link}
                   descricao={projetos.descricao}
                   expandido={projetos.expandido}
                   tecnologias={projetos.tecnologias}
-                >
-                </CardProjeto>
+                ></CardProjeto>
               ))
             }
           />
         </section>
       </div>
     </>
-  )
+  );
 }

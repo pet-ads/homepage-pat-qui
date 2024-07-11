@@ -25,14 +25,14 @@
   justify-content: flex-start;
 }
 
-@media screen and (max-width:770px){
-  .btn_contender{
+@media screen and (max-width: 770px) {
+  .btn_contender {
     margin-bottom: 25%;
   }
 }
-@media screen and (max-width:320px) {
-  .btn{
-    padding:12px;
+@media screen and (max-width: 320px) {
+  .btn {
+    padding: 12px;
     font-size: 12px;
   }
 }
