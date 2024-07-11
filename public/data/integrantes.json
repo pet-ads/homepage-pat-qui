@@ -130,11 +130,6 @@
     }
   ],
   "exTutores": [
-    {
-      "id": "1",
-      "nomeTutor": "Lucas Oliveira",
-      "foto": "",
-      "ano": "2023"
-    }
+    {}
   ]
 }
