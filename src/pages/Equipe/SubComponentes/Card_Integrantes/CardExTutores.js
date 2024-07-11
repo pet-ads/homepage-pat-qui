@@ -7,7 +7,7 @@ const noBlur = { filter: "blur(0px) grayscale(0%)" };
 
 function CardExTutor({ nome, ano, srcFoto, tipo, linkedin }) {
   const [blurred, setBlur] = useState(noBlur);
-  var altFoto = `Foto de ${nome}, integrante do PET ADS do IFSP Sao Carlos`;
+  let altFoto = `Foto de ${nome}, integrante do PET ADS do IFSP Sao Carlos`;
 
   return (
     <div className={styles.card}>
