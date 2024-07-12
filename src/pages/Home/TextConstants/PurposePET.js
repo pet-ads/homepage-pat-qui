@@ -1,17 +1,14 @@
 export const Purpose = {
-  desktop: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar nunc sed nunc consequat scelerisque. 
-    Nulla sodales eget est sed convallis. Sed vestibulum justo vitae tellus maximus, at sagittis purus pretium. 
-    Vivamus ultricies, neque aliquam egestas venenatis, justo est fermentum felis, fringilla tincidunt sapien ipsum et nisi. 
-    Praesent id pulvinar tortor. Cras ac lacus turpis. Mauris tincidunt nunc eros, id vehicula justo luctus vitae. 
-    Aenean sit amet leo vestibulum, fringilla erat ut, ornare lorem. Suspendisse ut aliquet nulla. Sed vitae tristique elit. 
-    Ut consectetur, erat a aliquet faucibus, urna libero viverra quam, ac porttitor ante tellus ac est. 
-    Vivamus eget nibh vitae leo iaculis suscipit.`,
+  desktop: `O PET é desenvolvido por grupos de acadêmicos, com a tutoria de um docente, organizados a partir
+de cursos de graduação das Instituições de Ensino Superior do país, sendo um grupo por curso,
+seu princípio se dá entre ensino, pesquisa e extensão e da educação tutorial.
+São objetivos do programa: 1. Desenvolver atividades acadêmicas de alta qualidade com grupos de aprendizagem coletiva e interdisciplinar. 2.
+Melhorar a qualidade da formação acadêmica dos alunos de graduação. 3. Estimular a formação de profissionais e docentes altamente qualificados. 4.Formular novas estratégias para o desenvolvimento e modernização do ensino superior no Brasil. 5.
+Promover o espírito crítico e uma atuação profissional ética e cidadã.`,
 
-  mobile: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar nunc sed nunc consequat scelerisque. 
-    Nulla sodales eget est sed convallis. Sed vestibulum justo vitae tellus maximus, at sagittis purus pretium. 
-    Vivamus ultricies, neque aliquam egestas venenatis, justo est fermentum felis, fringilla tincidunt sapien ipsum et nisi. 
-    Praesent id pulvinar tortor. Cras ac lacus turpis. Mauris tincidunt nunc eros, id vehicula justo luctus vitae. 
-    Aenean sit amet leo vestibulum, fringilla erat ut, ornare lorem. Suspendisse ut aliquet nulla. Sed vitae tristique elit. 
-    Ut consectetur, erat a aliquet faucibus, urna libero viverra quam, ac porttitor ante tellus ac est. 
-    Vivamus eget nibh vitae leo iaculis suscipit.`,
+  mobile: `O PET é desenvolvido por grupos de acadêmicos, com a tutoria de um docente, organizados a partir
+de cursos de graduação das Instituições de Ensino Superior do país, sendo um grupo por curso,
+seu princípio se dá entre ensino, pesquisa e extensão e da educação tutorial.
+São objetivos do programa: 1. Desenvolver atividades acadêmicas de alta qualidade com grupos de aprendizagem coletiva e interdisciplinar. 2.
+Melhorar a qualidade da formação acadêmica dos alunos de graduação. 3. Estimular a formação de profissionais e docentes altamente qualificados. 4. Formular novas estratégias para o desenvolvimento e modernização do ensino superior no Brasil. 5. Promover o espírito crítico e uma atuação profissional ética e cidadã.`,
 };

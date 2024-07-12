@@ -25,11 +25,40 @@
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .btn_contender {
     margin-bottom: 25%;
   }
 }
+
+@media screen and (max-width: 540px){
+  .btn_contender {
+    margin-bottom: 42%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .btn_contender {
+    margin-bottom: 60%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .btn_contender {
+    margin-bottom: 65%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .btn_contender {
+    margin-bottom: 20%;
+  }
+  .btn {
+    padding: 12px;
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .btn {
     padding: 12px;
