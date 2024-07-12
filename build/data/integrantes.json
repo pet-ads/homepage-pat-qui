@@ -2,17 +2,17 @@
   "aluno": [
     {
       "id": "1",
-      "nome": "Marie Skłodowska-Curie",
-      "foto": "./images/fotos_alunos/Marie-Curie.jpg",
-      "tipo": "Bolsista",
+      "nome": "Letícia de Oliveira Celes",
+      "foto": "./images/fotos_alunos/Letícia-Celes.jpeg",
+      "tipo": "Voluntária",
       "ano": "2024",
       "github": "",
       "linkedin": ""
     },
     {
       "id": "2",
-      "nome": "Linus Carl Pauling",
-      "foto": "./images/fotos_alunos/Linus-Pauling.jpg",
+      "nome": "Maria Eduarda Marcondes",
+      "foto": "./images/fotos_alunos/Maria-Marcondes.jpeg",
       "tipo": "Bolsista",
       "ano": "2024",
       "github": "",
@@ -20,50 +20,114 @@
     },
     {
       "id": "3",
-      "nome": "Gilbert Newton Lewis",
-      "foto": "./images/fotos_alunos/Gilbert-Lewis.jpeg",
-      "tipo": "Voluntário",
+      "nome": "Willy Gabriel Costa Peres",
+      "foto": "./images/fotos_alunos/Willy-Peres.jpeg",
+      "tipo": "Bolsista",
       "ano": "2024",
       "github": "",
-      "linkedin": ""
-    }
-  ],
-  "exAlunos": [
+      "linkedin": "https://www.linkedin.com/in/willy-gabriel-costa-peres-b1ab00219"
+    },
     {
-      "id": "1",
-      "nome": "Dorothy Mary Crowfoot Hodgkin",
-      "foto": "./images/fotos_alunos/Dorothy-Hodgkin.jpg",
-      "tipo": "bolsista",
-      "anos": "2019-2023",
+      "id": "4",
+      "nome": "Diego Matheus dos Santos",
+      "foto": "./images/fotos_alunos/Diego-dos-Santos.jpeg",
+      "tipo": "Bolsista",
+      "anos": "2023",
       "github": "",
       "linkedin": ""
     },
     {
-      "id": "2",
-      "nome": "Robert Wilhelm Eberhard von Bunsen",
-      "foto": "./images/fotos_alunos/Robert-Bunsen.jpg",
-      "tipo": "bolsista",
-      "anos": "2019-2023",
+      "id": "5",
+      "nome": "Gabriela Maria Despirito",
+      "foto": "./images/fotos_alunos/Gabriela-Despirito.jpeg",
+      "tipo": "Bolsista",
+      "anos": "2023",
       "github": "",
       "linkedin": ""
+    },
+    {
+      "id": "6",
+      "nome": "Stefanie Danelon de Carvalho",
+      "foto": "./images/fotos_alunos/Stefanie-de-Carvalho.jpeg",
+      "tipo": "Bolsista",
+      "anos": "2023",
+      "github": "",
+      "linkedin": "https://www.linkedin.com/in/stefanie-danelon-8ab001163"
+    },
+    {
+      "id": "7",
+      "nome": "Tais Vitória Junqueira",
+      "foto": "./images/fotos_alunos/Tais-Junqueira.jpg",
+      "tipo": "Bolsista",
+      "anos": "2023",
+      "github": "",
+      "linkedin": ""
+    },
+    {
+      "id": "8",
+      "nome": "Amanda Fernandes da Silva",
+      "foto": "./images/fotos_alunos/Amanda-da-Silva.jpeg",
+      "tipo": "Bolsista",
+      "anos": "2022",
+      "github": "",
+      "linkedin": ""
+    },
+    {
+      "id": "9",
+      "nome": "Ana Carolina Matias Matrangolo",
+      "foto": "./images/fotos_alunos/Ana-Matrangolo.jpeg",
+      "tipo": "Bolsista",
+      "anos": "2022",
+      "github": "",
+      "linkedin": ""
+    },
+    {
+      "id": "10",
+      "nome": "Edna Silva de Pádua",
+      "foto": "./images/fotos_alunos/Edna-de-Pádua.jpeg",
+      "tipo": "Bolsista",
+      "anos": "2022",
+      "github": "",
+      "linkedin": "https://br.linkedin.com/in/edna-silva-de-p%C3%A1dua-a8818666"
+    },
+    {
+      "id": "11",
+      "nome": "João Vitor da Silva Duarte",
+      "foto": "./images/fotos_alunos/João-Duarte.jpeg",
+      "tipo": "Bolsista",
+      "anos": "2022",
+      "github": "",
+      "linkedin": ""
+    },
+    {
+      "id": "12",
+      "nome": "Maria Eduarda Marim",
+      "foto": "./images/fotos_alunos/Maria-Marim.jpeg",
+      "tipo": "Bolsista",
+      "anos": "2022",
+      "github": "",
+      "linkedin": ""
+    },
+    {
+      "id": "13",
+      "nome": "Carolina Veronica Hayashi",
+      "foto": "./images/fotos_alunos/Carolina-Hayashi.jpeg",
+      "tipo": "Bolsista",
+      "anos": "2021",
+      "github": "",
+      "linkedin": "www.linkedin.com/in/carolina-veronica-hayashi-002993116"
     }
   ],
+  "exAlunos": [],
   "tutores": [
     {
       "id": "1",
-      "nomeTutor": "Antoine-Laurent de Lavoisier",
-      "tipo": "Tutor",
-      "foto": "./images/fotos_tutores/Lavoisier.jpg",
-      "ano": "2023",
+      "nomeTutor": "Fabiana Cristina de Freitas",
+      "tipo": "Tutora",
+      "foto": "./images/fotos_tutores/Fabiana-de-Freitas.jpg",
+      "ano": "2021",
       "github": ""
     }
   ],
-  "exTutores": [
-    {
-      "id": "1",
-      "nomeTutor": "John Dalton",
-      "foto": "./images/fotos_tutores/Dalton.jpg",
-      "ano": "2010-2022"
-    }
-  ]
+  "exTutores": []
 }
