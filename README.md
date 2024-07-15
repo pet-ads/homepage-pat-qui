@@ -14,7 +14,6 @@ cd homepage-pet-qui
 Após acessar o diretório do projeto, instale o gerenciador de pacotes Yarn e todas as dependências necessárias:
 ```bash
 yarn install
-yarn start
 ```
 
 ### 3. Iniciando o Projeto:
