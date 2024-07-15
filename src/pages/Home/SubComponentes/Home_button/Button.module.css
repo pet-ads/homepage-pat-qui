@@ -25,13 +25,7 @@
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 768px) {
-  .btn_contender {
-    margin-bottom: 25%;
-  }
-}
-
-@media screen and (max-width: 540px){
+@media screen and (max-width: 640px) {
   .btn_contender {
     margin-bottom: 42%;
   }
@@ -61,7 +55,20 @@
 
 @media screen and (max-width: 320px) {
   .btn {
-    padding: 12px;
-    font-size: 12px;
+    padding: 10px;
+    font-size: 10px;
+  }
+  .btn_contender {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .btn {
+    padding: 3px;
+    font-size: 8px;
+  }
+  .btn_contender {
+    margin-bottom: 60px;
   }
 }
