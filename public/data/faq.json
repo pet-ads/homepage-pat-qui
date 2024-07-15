@@ -2,18 +2,18 @@
   "faqs": [
     {
       "id": "1",
-      "trigger": "O que é o PetQuímica",
-      "resposta": "Programa que visa desenvolver atividades e projetos de ensino e pesquisa que seajm relacionados a Quimica sob a tutoria de um docente."
+      "trigger": "O que é o PetQuímica?",
+      "resposta": "O PET, Programa de Educação Tutorial, visa desenvolver atividades e projetos de ensino e pesquisa que sejam relacionados à química sob a tutoria de um docente."
     },
     {
       "id": "2",
       "trigger": "Quais são as responsabilidades de um petiano?",
-      "resposta": "Os membros precisam dedicar-se integralmente às atividades acadêmicas do grupo, além de suas atividades acadêmicas regulares. As atividades do grupo são definidas em conjunto com o tutor, e podem incluir o desenvolvimento de planos de estudos, a criação de atividades de extensão com membros da comunidade acadêmica, desenvolvimento de projetos de pesquisa, a implementação de projetos internos ao PET, entre outras."
+      "resposta": "Os membros devem dedicar-se integralmente às atividades acadêmicas do grupo, além de suas atividades acadêmicas regulares. As atividades do grupo são definidas em conjunto com o tutor, e podem incluir o desenvolvimento de planos de estudos, a criação de atividades de extensão com membros da comunidade acadêmica, desenvolvimento de projetos de pesquisa, a implementação de projetos internos ao PET, entre outras."
     },
     {
       "id": "3",
       "trigger": "Por que o PetQuímica é uma boa oportunidade para mim?",
-      "resposta": "Os alunos do PET são acompanhados por um tutor com o objetivo de proporcionar uma formação integral em ensino, pesquisa e extensão. O tempo dedicado ao programa visa aprimorar o desempenho acadêmico dos estudantes e oferecer conteúdos adicionais à formação regular. Durante sua participação, os membros desenvolvem projetos práticos, estudam em grupo e atuam em ações que beneficiam seu curso, a instituição e a sociedade. O PetQuímica do IFSP, em particular, oferece uma plataforma única para o desenvolvimento acadêmico e pessoal dos participantes."
+      "resposta": "Os alunos do PET são acompanhados por um tutor com o objetivo de proporcionar uma formação integral em ensino, pesquisa e extensão. O tempo dedicado ao programa visa aprimorar o desempenho acadêmico dos estudantes e oferecer conteúdos adicionais à formação regular. Durante sua participação, os membros desenvolvem projetos práticos, estudam em grupo e atuam em ações que beneficiam seu curso, a instituição e a sociedade. O PetQuímica do IFSP Sertãozinho, em particular, oferece uma plataforma única para o desenvolvimento acadêmico e pessoal dos participantes."
     },
     {
       "id": "4",
@@ -22,18 +22,18 @@
     },
     {
       "id": "5",
-      "trigger": "Quais são os pré-requisitos para me tornar um membro do Pet?",
-      "resposta": "Para se juntar ao PetQuímica, é preciso ser estudante do curso de Licenciatura em Química no IFSP Campus Sertãozinho e ser aprovado em um processo seletivo. Os processos de seleção são regidos por editais específicos, publicados sempre que há vagas disponíveis."
+      "trigger": "Quais são os pré-requisitos para me tornar um membro do PetQuímica?",
+      "resposta": "Para se juntar ao PetQuímica, é preciso ser estudante do curso de Licenciatura em Química no IFSP câmpus Sertãozinho e ser aprovado em um processo seletivo. Os processos de seleção são regidos por editais específicos, publicados sempre que há vagas disponíveis."
     },
     {
       "id": "6",
-      "trigger": "Pessoas que trabalham ou possuem outra bolsa podem participar do Pet?",
+      "trigger": "Pessoas que trabalham ou possuem outra bolsa podem participar do PET?",
       "resposta": "Bolsistas PET não podem ser societários, celetistas ou receber outras bolsas. Essa restrição não se aplica aos voluntários, mas a dedicação mínima de 20h e a exigência de bom rendimento acadêmico tornam a participação no programa pouco viável para alguém com outro vínculo."
     },
     {
       "id": "7",
       "trigger": " Como funcionam os processos seletivos?",
-      "resposta": "O processo seletivo do PET é conduzido com base nas informações detalhadas contidas nos editais publicados no momento de inscrição. Esses documentos fornecem orientações claras sobre os critérios de elegibilidade, as etapas do processo seletivo, os prazos importantes e os documentos necessários para participação. Os interessados em integrar o PET devem atentamente revisar os editais para entender os requisitos e procedimentos específicos para concorrer às vagas disponíveis. "
+      "resposta": "O processo seletivo do PET é conduzido com base nas informações detalhadas contidas nos editais publicados no momento de inscrição. Esses documentos fornecem orientações claras sobre os critérios de elegibilidade, as etapas do processo seletivo, os prazos importantes e os documentos necessários para participação. Os interessados em integrar o PET devem atentamente revisar os editais para entender os requisitos e procedimentos específicos para concorrer às vagas disponíveis."
     },
     {
       "id": "8",
@@ -57,7 +57,7 @@
     },
     {
       "id": "12",
-      "trigger": "Membros do PeT podem ser desligados do programa?",
+      "trigger": "Membros do PET podem ser desligados do programa?",
       "resposta": "Para se manter no PET o aluno deve participar de todas as atividades estabelecidas em conjunto com o tutor e comparecer às reuniões de acompanhamento. Caso o membro do PET não possua bom rendimento no programa ou no curso, pode perder o vínculo. Após o ingresso no PET, o membro não pode reprovar em mais de duas disciplinas no curso e deve ter frequência e bom rendimento acadêmico."
     }
   ]
