@@ -36,3 +36,21 @@
   color: var(--cor-azul__claro);
   font-weight: bold;
 }
+
+@media screen and (max-width: 640px) {
+  .menu {
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .menu {
+    padding: 5px 0px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .menu {
+    padding: 20px 0px;
+  }
+}

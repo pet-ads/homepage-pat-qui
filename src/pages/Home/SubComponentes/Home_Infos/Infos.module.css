@@ -16,7 +16,13 @@
   color: var(--cor-texto);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px) {
+  .text {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .title {
     font-size: 150%;
   }
@@ -26,22 +32,33 @@
   }
 }
 
-/* @media screen and (max-width: 490px) {
+@media screen and (max-width: 640px) {
   .title {
-    font-size: 150%;
+    font-size: 130%;
+    margin-bottom: 0px;
+    margin-top: 30px;
   }
   .text {
     font-size: 110%;
-    width: fit-content;
+    margin-bottom: 5px;
   }
-} */
+}
+
+@media screen and (max-width: 414px) {
+  .title {
+    font-size: 130%;
+  }
+  .text {
+    font-size: 80%;
+  }
+}
 
 @media screen and (max-width: 391px) {
   .title {
     font-size: 130%;
   }
   .text {
-    font-size: 95%;
+    font-size: 80%;
   }
 }
 
@@ -52,7 +69,8 @@
   }
 
   .text {
-    font-size: 90%;
+    font-size: 80%;
+    margin-bottom: 5px;
   }
 }
 @media screen and (max-width: 298px) {
@@ -60,6 +78,16 @@
     font-size: 110%;
   }
   .text {
-    font-size: 85%;
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .title {
+    font-size: 90%;
+  }
+  .text {
+    font-size: 45%;
+    margin-bottom: 5px;
   }
 }
