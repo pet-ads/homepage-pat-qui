@@ -1,14 +1,9 @@
 export const Purpose = {
-  desktop: `O PET é desenvolvido por grupos de acadêmicos, com a tutoria de um docente, organizados a partir
-de cursos de graduação das Instituições de Ensino Superior do país, sendo um grupo por curso,
-seu princípio se dá entre ensino, pesquisa e extensão e da educação tutorial.
-São objetivos do programa: 1. Desenvolver atividades acadêmicas de alta qualidade com grupos de aprendizagem coletiva e interdisciplinar. 2.
-Melhorar a qualidade da formação acadêmica dos alunos de graduação. 3. Estimular a formação de profissionais e docentes altamente qualificados. 4.Formular novas estratégias para o desenvolvimento e modernização do ensino superior no Brasil. 5.
-Promover o espírito crítico e uma atuação profissional ética e cidadã.`,
+  desktop: `O Programa de Educação Tutorial (PET) é desenvolvido por grupos de acadêmicos sob a orientação de um docente, organizados a partir dos cursos de graduação das Instituições de Ensino Superior do país. Seu princípio fundamental é integrar ensino, pesquisa e extensão através da educação tutorial.
 
-  mobile: `O PET é desenvolvido por grupos de acadêmicos, com a tutoria de um docente, organizados a partir
-de cursos de graduação das Instituições de Ensino Superior do país, sendo um grupo por curso,
-seu princípio se dá entre ensino, pesquisa e extensão e da educação tutorial.
-São objetivos do programa: 1. Desenvolver atividades acadêmicas de alta qualidade com grupos de aprendizagem coletiva e interdisciplinar. 2.
-Melhorar a qualidade da formação acadêmica dos alunos de graduação. 3. Estimular a formação de profissionais e docentes altamente qualificados. 4. Formular novas estratégias para o desenvolvimento e modernização do ensino superior no Brasil. 5. Promover o espírito crítico e uma atuação profissional ética e cidadã.`,
+  Os objetivos do programa incluem promover atividades acadêmicas de alta qualidade por meio de grupos de aprendizagem coletiva e interdisciplinar, aprimorar a formação acadêmica dos alunos de graduação, incentivar a capacitação de profissionais e docentes altamente qualificados, formular novas estratégias para o desenvolvimento e modernização do ensino superior no Brasil, e cultivar um espírito crítico e uma atuação profissional ética e cidadã.`,
+
+  mobile: `O Programa de Educação Tutorial (PET) é desenvolvido por grupos de acadêmicos sob a orientação de um docente, organizados a partir dos cursos de graduação das Instituições de Ensino Superior do país. Seu princípio fundamental é integrar ensino, pesquisa e extensão através da educação tutorial.
+
+  Os objetivos do programa incluem promover atividades acadêmicas de alta qualidade por meio de grupos de aprendizagem coletiva e interdisciplinar, aprimorar a formação acadêmica dos alunos de graduação, incentivar a capacitação de profissionais e docentes altamente qualificados, formular novas estratégias para o desenvolvimento e modernização do ensino superior no Brasil, e cultivar um espírito crítico e uma atuação profissional ética e cidadã.`,
 };
