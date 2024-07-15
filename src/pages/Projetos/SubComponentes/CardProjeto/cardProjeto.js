@@ -1,5 +1,5 @@
 import "./cardProjeto.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaSearch, FaGraduationCap } from "react-icons/fa";
 import { AiFillCloseCircle } from "react-icons/ai";
@@ -9,6 +9,15 @@ export default function CardProjeto(props) {
   function setingIsOpen() {
     setIsOpen(!isOpen);
   }
+
+  useEffect(() => {
+    isOpen
+      ? document.body.classList.add("no-scroll")
+      : document.body.classList.remove("no-scroll");
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [isOpen]);
 
   return (
     <>
