@@ -17,7 +17,7 @@
   position: fixed;
 }
 
-.no-scroll{
+.no-scroll {
   overflow: hidden;
 }
 
@@ -138,9 +138,12 @@
   }
 }
 
-@media (max-width: 1370px) {
+@media (max-width: 2000px) {
   .aberto {
     top: 25%;
+  }
+  .aberto {
+    padding: 10px;
   }
 }
 
@@ -151,6 +154,7 @@
   .aberto {
     top: 13%;
     height: 78vh;
+    padding: 10px;
   }
   .card--texto__expandido {
     line-height: 140%;
@@ -172,7 +176,6 @@
     height: auto;
     padding-top: 10px;
     position: fixed;
-    
   }
 
   .scrowSpace {
