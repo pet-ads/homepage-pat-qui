@@ -1,0 +1,73 @@
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--cor-background);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cardNotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--cor-azul__medio);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.errorFound {
+  font-size: 10vw;
+  color: var(--cor-texto);
+  margin: 0px;
+}
+
+.textNotFound {
+  color: var(--cor-texto__claro);
+  font-size: 4vw;
+  margin: 20px 0px;
+}
+
+.returnHome {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--cor-texto__claro);
+  background-color: var(--cor-azul__claro);
+  border: 2px solid var(--cor-azul__claro);
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  font-size: 3.5vw;
+}
+
+.returnHome:hover {
+  color: var(--cor-azul__claro);
+  background-color: var(--cor-texto__claro);
+  border: 2px solid var(--cor-texto__claro);
+}
+
+@media screen and (max-width: 1024px){
+    .cardNotFound{
+        margin-top: 10vh;
+    }
+} 
+
+@media screen and (min-width: 768px) {
+  .errorFound {
+    font-size: 80pt;
+  }
+
+  .textNotFound {
+    font-size: 20pt;
+  }
+
+  .returnHome {
+    font-size: 16pt;
+  }
+}
