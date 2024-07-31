@@ -15,7 +15,7 @@ function Inscricoes({
   const [body, setBody] = useState("");
 
   useEffect(() => {
-    if (estado.toLowerCase() !== "encerrado") {
+    if (estado && estado.toLowerCase() !== "encerrado") {
       setSubject(
         "Inscrição no Processo Seletivo PET Química - IFSP Campus Sertãozinho"
       );
@@ -47,7 +47,7 @@ function Inscricoes({
         </a>
         .
       </p>
-      {estado.toLowerCase() === "encerrado" ? (
+      {estado && estado.toLowerCase() === "encerrado" ? (
         <p className={styles.texto}>
           {texto_2} <span className={styles.encerrado}>{data}</span> ({estado}).
         </p>

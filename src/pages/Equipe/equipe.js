@@ -7,14 +7,12 @@ import CollapsibleOpen from "../../hooks/collapsible/useCollapsibleOpen";
 import CollapsibleTrigger from "../../hooks/collapsible/useCollapsibleTrigger";
 import CardTutor from "./SubComponentes/Card_Integrantes/CardTutor";
 import CardAluno from "./SubComponentes/Card_Integrantes/CardAluno";
-import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import CardExAluno from "./SubComponentes/Card_Integrantes/CardExAlunos";
 import CardExTutores from "./SubComponentes/Card_Integrantes/CardExTutores";
 
 export default function Equipe() {
   return (
     <>
-      <MenuNavegacao />
       <div className="equipe--corpo">
         <FetchEquipe
           render={({ alunos, tutores, exAlunos, exTutores }) => (

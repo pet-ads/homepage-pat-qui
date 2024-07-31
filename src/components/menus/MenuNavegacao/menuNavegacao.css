@@ -24,7 +24,7 @@
 }
 
 .menu-navegacao--link {
-  color: var(--cor-texto);
+  color: var(--cor-detalhes-azul);
   text-decoration: none;
 }
 .menu-navegacao--link:hover {
@@ -35,12 +35,6 @@
   font-size: 18px;
   color: var(--cor-azul__claro);
   font-weight: bold;
-}
-
-@media screen and (max-width: 640px) {
-  .menu {
-    padding: 10px 0px;
-  }
 }
 
 @media screen and (max-width: 320px) {
