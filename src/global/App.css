@@ -7,6 +7,8 @@
   --cor-texto__claro: #d3d3e1;
   --cor-texto__encerrado: #c86172;
   --cor-background__faq: #362865;
+  --cor-text-selection: #ffffff;
+  --cor-backgound-selection: #0000ff ;
 }
 
 body::-webkit-scrollbar {
@@ -37,6 +39,6 @@ li::selection,
 a::selection,
 pre::selection,
 span::selection {
-  color: white;
-  background-color: blue;
+  color: var(--cor-text-selection);
+  background-color: var(--cor-backgound-selection);
 }
