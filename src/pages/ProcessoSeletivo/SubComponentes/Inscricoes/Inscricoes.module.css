@@ -37,7 +37,7 @@
 }
 
 .encerrado {
-  color: lightpink;
+  color: var(--cor-texto__encerrado);
   text-decoration: line-through;
 }
 

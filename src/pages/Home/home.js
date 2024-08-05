@@ -8,7 +8,6 @@ import useIsMobile from "../../hooks/window/useIsMobile";
 import ScrollArrow from "./SubComponentes/ScrollArrow/ScrollArrow";
 import Reveal from "../../components/interactive/Efeito Reveal/Reveal";
 import useScrollToSection from "../../hooks/window/useScrollToSection";
-import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import HeaderConteiner from "./SubComponentes/Header_conteiner/HeaderConteiner";
 
 export default function Home() {
@@ -28,8 +27,6 @@ export default function Home() {
 
   return (
     <div className="home">
-      <MenuNavegacao/>
-
       <HeaderConteiner />
 
       <ScrollArrow

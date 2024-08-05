@@ -41,7 +41,7 @@
   bottom: 0%;
   z-index: 1;
   position: fixed;
-  background-color: rgba(2, 45, 83, 0.915);
+  background-color: rgba(27, 9, 71, 0.915);
 }
 
 .card_background:hover {

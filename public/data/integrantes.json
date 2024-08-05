@@ -6,8 +6,8 @@
       "foto": "./images/fotos_alunos/Letícia-Celes.jpeg",
       "tipo": "Voluntária",
       "ano": "2024",
-      "github": "",
-      "linkedin": ""
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "2",
@@ -15,8 +15,8 @@
       "foto": "./images/fotos_alunos/Maria-Marcondes.jpeg",
       "tipo": "Bolsista",
       "ano": "2024",
-      "github": "",
-      "linkedin": ""
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "3",
@@ -24,7 +24,7 @@
       "foto": "./images/fotos_alunos/Willy-Peres.jpeg",
       "tipo": "Bolsista",
       "ano": "2024",
-      "github": "",
+      "github": "https://github.com",
       "linkedin": "https://www.linkedin.com/in/willy-gabriel-costa-peres-b1ab00219"
     },
     {
@@ -33,8 +33,8 @@
       "foto": "./images/fotos_alunos/Diego-dos-Santos.jpeg",
       "tipo": "Bolsista",
       "anos": "2023",
-      "github": "",
-      "linkedin": ""
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "5",
@@ -42,8 +42,8 @@
       "foto": "./images/fotos_alunos/Gabriela-Despirito.jpeg",
       "tipo": "Bolsista",
       "anos": "2023",
-      "github": "",
-      "linkedin": ""
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "6",
@@ -51,7 +51,7 @@
       "foto": "./images/fotos_alunos/Stefanie-de-Carvalho.jpeg",
       "tipo": "Bolsista",
       "anos": "2023",
-      "github": "",
+      "github": "https://github.com",
       "linkedin": "https://www.linkedin.com/in/stefanie-danelon-8ab001163"
     },
     {
@@ -60,8 +60,8 @@
       "foto": "./images/fotos_alunos/Tais-Junqueira.jpg",
       "tipo": "Bolsista",
       "anos": "2023",
-      "github": "",
-      "linkedin": ""
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "8",
@@ -69,8 +69,8 @@
       "foto": "./images/fotos_alunos/Amanda-da-Silva.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "",
-      "linkedin": ""
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "9",
@@ -78,8 +78,8 @@
       "foto": "./images/fotos_alunos/Ana-Matrangolo.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "",
-      "linkedin": ""
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "10",
@@ -87,7 +87,7 @@
       "foto": "./images/fotos_alunos/Edna-de-Pádua.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "",
+      "github": "https://github.com",
       "linkedin": "https://br.linkedin.com/in/edna-silva-de-p%C3%A1dua-a8818666"
     },
     {
@@ -96,8 +96,8 @@
       "foto": "./images/fotos_alunos/João-Duarte.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "",
-      "linkedin": ""
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "12",
@@ -105,8 +105,8 @@
       "foto": "./images/fotos_alunos/Maria-Marim.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "",
-      "linkedin": ""
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "13",
@@ -114,8 +114,8 @@
       "foto": "./images/fotos_alunos/Carolina-Hayashi.jpeg",
       "tipo": "Bolsista",
       "anos": "2021",
-      "github": "",
-      "linkedin": "www.linkedin.com/in/carolina-veronica-hayashi-002993116"
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com/in/carolina-veronica-hayashi-002993116"
     }
   ],
   "exAlunos": [],
@@ -129,5 +129,6 @@
       "github": ""
     }
   ],
-  "exTutores": []
+  "exTutores": [
+  ]
 }
