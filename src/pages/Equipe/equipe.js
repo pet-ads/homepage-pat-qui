@@ -44,37 +44,39 @@ export default function Equipe() {
                   />
                 ))}
               </section>
-              <Collapsible
-                classParentString="EquipeCollapsible"
-                trigger={
-                  <CollapsibleTrigger text=" Ex-Integrantes" page="Equipe" />
-                }
-                triggerWhenOpen={
-                  <CollapsibleOpen text=" Ex-Integrantes" page="Equipe" />
-                }
-              >
-                <section className="equipe--tutor">
-                  {exTutores.map((exTutor) => (
-                    <CardExTutores
-                      key={exTutor.id}
-                      nome={exTutor.nomeTutor}
-                      srcFoto={exTutor.foto}
-                      ano={exTutor.ano}
-                    />
-                  ))}
-                </section>
-                <section className="equipe--alunos">
-                  {exAlunos.map((exAluno) => (
-                    <CardExAluno
-                      key={exAluno.id}
-                      nome={exAluno.nome}
-                      srcFoto={exAluno.foto}
-                      anos={exAluno.anos}
-                      linkedin={exAluno.linkedin}
-                    />
-                  ))}
-                </section>
-              </Collapsible>
+              {(exAlunos.length > 0 || exTutores.length > 0) && (
+                <Collapsible
+                  classParentString="EquipeCollapsible"
+                  trigger={
+                    <CollapsibleTrigger text=" Ex-Integrantes" page="Equipe" />
+                  }
+                  triggerWhenOpen={
+                    <CollapsibleOpen text=" Ex-Integrantes" page="Equipe" />
+                  }
+                >
+                  <section className="equipe--tutor">
+                    {exTutores.map((exTutor) => (
+                      <CardExTutores
+                        key={exTutor.id}
+                        nome={exTutor.nomeTutor}
+                        srcFoto={exTutor.foto}
+                        ano={exTutor.ano}
+                      />
+                    ))}
+                  </section>
+                  <section className="equipe--alunos">
+                    {exAlunos.map((exAluno) => (
+                      <CardExAluno
+                        key={exAluno.id}
+                        nome={exAluno.nome}
+                        srcFoto={exAluno.foto}
+                        anos={exAluno.anos}
+                        linkedin={exAluno.linkedin}
+                      />
+                    ))}
+                  </section>
+                </Collapsible>
+              )}
             </>
           )}
         />
