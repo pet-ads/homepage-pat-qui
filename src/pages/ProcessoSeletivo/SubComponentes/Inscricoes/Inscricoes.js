@@ -47,7 +47,7 @@ function Inscricoes({
         </a>
         .
       </p>
-      {estado && estado.toLowerCase() === "encerrado" ? (
+      {estado && estado.toLowerCase().trim() === "encerrado" ? (
         <p className={styles.texto}>
           {texto_2} <span className={styles.encerrado}>{data}</span> ({estado}).
         </p>

@@ -126,9 +126,9 @@
       "tipo": "Tutora",
       "foto": "./images/fotos_tutores/Fabiana-de-Freitas.jpg",
       "ano": "2021",
-      "github": ""
+      "github": "",
+      "linkedin": "https://www.linkedin.com/in/carolina-veronica-hayashi-002993116"
     }
   ],
-  "exTutores": [
-  ]
+  "exTutores": []
 }
