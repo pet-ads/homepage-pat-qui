@@ -6,6 +6,7 @@ import { AiFillCloseCircle } from "react-icons/ai";
 import { MdExtension, MdOutlineComputer } from "react-icons/md";
 export default function CardProjeto(props) {
   const [isOpen, setIsOpen] = useState(false);
+  const tipo = props.tipo.toLowerCase().trim();
   function setingIsOpen() {
     setIsOpen(!isOpen);
   }
@@ -27,14 +28,14 @@ export default function CardProjeto(props) {
           onClick={setingIsOpen}
         >
           <motion.div className="logoConteinerOpenned">
-            {props.tipo === "ensino" && (
+            {tipo === "ensino" && (
               <FaGraduationCap className="logo-projeto" />
             )}
-            {props.tipo === "pesquisa" && <FaSearch className="logo-projeto" />}
-            {props.tipo === "extensão" && (
+            {tipo === "pesquisa" && <FaSearch className="logo-projeto" />}
+            {tipo === "extensão" && (
               <MdExtension className="logo-projeto" />
             )}
-            {props.tipo === "extensão-desenvolivmento" && (
+            {tipo === "extensão-desenvolivmento" && (
               <MdOutlineComputer className="logo-projeto" />
             )}
 
@@ -62,16 +63,16 @@ export default function CardProjeto(props) {
           ></div>
           <motion.div className={isOpen ? "card aberto" : "card fechado"}>
             <motion.div className="logoConteinerClosed">
-              {props.tipo === "ensino" && (
+              {tipo === "ensino" && (
                 <FaGraduationCap className="logo-projeto" />
               )}
-              {props.tipo === "pesquisa" && (
+              {tipo === "pesquisa" && (
                 <FaSearch className="logo-projeto" />
               )}
-              {props.tipo === "extensão" && (
+              {tipo === "extensão" && (
                 <MdExtension className="logo-projeto" />
               )}
-              {props.tipo === "extensão-desenvolivmento" && (
+              {tipo === "extensão-desenvolivmento" && (
                 <MdOutlineComputer className="logo-projeto" />
               )}
 

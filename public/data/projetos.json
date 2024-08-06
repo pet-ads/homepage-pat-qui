@@ -32,13 +32,13 @@
     },
     {
       "id": "4",
-      "tipo": "extensão",
-      "link": "a",
+      "tipo": "extensão-desenvolivmento",
+      "link": "https://github.com/pet-ads/homepage-pet-qui",
       "titulo": "PetWeb",
       "status": "Em andamento",
       "descricao": "Criar e estruturar um blog online com design intuitivo e acessível, utilizando ferramentas modernas de desenvolvimento Web.",
       "expandido": "Desenvolver um blog para o campus IFSP Sertãozinho, em colaboração com o curso de Análise e Desenvolvimento de Sistemas do IFSP São Carlos. O blog centraliza notícias, conhecimento científico, experimentos, eventos e feiras de ciência, fortalecendo a comunicação e o compartilhamento de conhecimento na instituição e incentivando a participação ativa de estudantes e comunidade.",
-      "tecnologias": ""
+      "tecnologias": "ReactJS, JavaScriptES6+, HTML5 e CSS3."
     },
     {
       "id": "5",
