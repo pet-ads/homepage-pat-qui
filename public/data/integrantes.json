@@ -2,119 +2,119 @@
   "aluno": [
     {
       "id": "1",
-      "nome": "Letícia de Oliveira Celes",
+      "nome": "Letícia de O. Celes",
       "foto": "./images/fotos_alunos/Letícia-Celes.jpeg",
       "tipo": "Voluntária",
       "ano": "2024",
-      "github": "https://github.com",
-      "linkedin": "https://www.linkedin.com"
+      "github": "",
+      "linkedin": ""
     },
     {
       "id": "2",
-      "nome": "Maria Eduarda Marcondes",
+      "nome": "Maria E. Marcondes",
       "foto": "./images/fotos_alunos/Maria-Marcondes.jpeg",
       "tipo": "Bolsista",
       "ano": "2024",
-      "github": "https://github.com",
-      "linkedin": "https://www.linkedin.com"
+      "github": "",
+      "linkedin": ""
     },
     {
       "id": "3",
-      "nome": "Willy Gabriel Costa Peres",
+      "nome": "Willy G. C. Peres",
       "foto": "./images/fotos_alunos/Willy-Peres.jpeg",
       "tipo": "Bolsista",
       "ano": "2024",
-      "github": "https://github.com",
+      "github": "",
       "linkedin": "https://www.linkedin.com/in/willy-gabriel-costa-peres-b1ab00219"
     },
     {
       "id": "4",
-      "nome": "Diego Matheus dos Santos",
+      "nome": "Diego M. dos Santos",
       "foto": "./images/fotos_alunos/Diego-dos-Santos.jpeg",
       "tipo": "Bolsista",
       "anos": "2023",
-      "github": "https://github.com",
-      "linkedin": "https://www.linkedin.com"
+      "github": "",
+      "linkedin": ""
     },
     {
       "id": "5",
-      "nome": "Gabriela Maria Despirito",
+      "nome": "Gabriela M. Despirito",
       "foto": "./images/fotos_alunos/Gabriela-Despirito.jpeg",
       "tipo": "Bolsista",
       "anos": "2023",
-      "github": "https://github.com",
-      "linkedin": "https://www.linkedin.com"
+      "github": "",
+      "linkedin": ""
     },
     {
       "id": "6",
-      "nome": "Stefanie Danelon de Carvalho",
+      "nome": "Stefanie D. de Carvalho",
       "foto": "./images/fotos_alunos/Stefanie-de-Carvalho.jpeg",
       "tipo": "Bolsista",
       "anos": "2023",
-      "github": "https://github.com",
+      "github": "",
       "linkedin": "https://www.linkedin.com/in/stefanie-danelon-8ab001163"
     },
     {
       "id": "7",
-      "nome": "Tais Vitória Junqueira",
+      "nome": "Tais V. Junqueira",
       "foto": "./images/fotos_alunos/Tais-Junqueira.jpg",
       "tipo": "Bolsista",
       "anos": "2023",
-      "github": "https://github.com",
-      "linkedin": "https://www.linkedin.com"
+      "github": "",
+      "linkedin": ""
     },
     {
       "id": "8",
-      "nome": "Amanda Fernandes da Silva",
+      "nome": "Amanda F. da Silva",
       "foto": "./images/fotos_alunos/Amanda-da-Silva.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "https://github.com",
-      "linkedin": "https://www.linkedin.com"
+      "github": "",
+      "linkedin": ""
     },
     {
       "id": "9",
-      "nome": "Ana Carolina Matias Matrangolo",
+      "nome": "Ana C. M. Matrangolo",
       "foto": "./images/fotos_alunos/Ana-Matrangolo.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "https://github.com",
-      "linkedin": "https://www.linkedin.com"
+      "github": "",
+      "linkedin": ""
     },
     {
       "id": "10",
-      "nome": "Edna Silva de Pádua",
+      "nome": "Edna S. de Pádua",
       "foto": "./images/fotos_alunos/Edna-de-Pádua.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "https://github.com",
+      "github": "",
       "linkedin": "https://br.linkedin.com/in/edna-silva-de-p%C3%A1dua-a8818666"
     },
     {
       "id": "11",
-      "nome": "João Vitor da Silva Duarte",
+      "nome": "João V. da S. Duarte",
       "foto": "./images/fotos_alunos/João-Duarte.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "https://github.com",
-      "linkedin": "https://www.linkedin.com"
+      "github": "",
+      "linkedin": ""
     },
     {
       "id": "12",
-      "nome": "Maria Eduarda Marim",
+      "nome": "Maria E. Marim",
       "foto": "./images/fotos_alunos/Maria-Marim.jpeg",
       "tipo": "Bolsista",
       "anos": "2022",
-      "github": "https://github.com",
-      "linkedin": "https://www.linkedin.com"
+      "github": "",
+      "linkedin": ""
     },
     {
       "id": "13",
-      "nome": "Carolina Veronica Hayashi",
+      "nome": "Carolina V. Hayashi",
       "foto": "./images/fotos_alunos/Carolina-Hayashi.jpeg",
       "tipo": "Bolsista",
       "anos": "2021",
-      "github": "https://github.com",
+      "github": "",
       "linkedin": "https://www.linkedin.com/in/carolina-veronica-hayashi-002993116"
     }
   ],
@@ -122,7 +122,7 @@
   "tutores": [
     {
       "id": "1",
-      "nomeTutor": "Fabiana Cristina de Freitas",
+      "nomeTutor": "Fabiana C. de Freitas",
       "tipo": "Tutora",
       "foto": "./images/fotos_tutores/Fabiana-de-Freitas.jpg",
       "ano": "2021",

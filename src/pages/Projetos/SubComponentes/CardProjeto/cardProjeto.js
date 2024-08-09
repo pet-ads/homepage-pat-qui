@@ -1,12 +1,13 @@
 import "./cardProjeto.css";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaSearch, FaGraduationCap } from "react-icons/fa";
+import { FaGithub, FaSearch, FaGraduationCap, FaArchive } from "react-icons/fa";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { MdExtension, MdOutlineComputer } from "react-icons/md";
 export default function CardProjeto(props) {
   const [isOpen, setIsOpen] = useState(false);
   const tipo = props.tipo.toLowerCase().trim();
+  const link = props.link.toLowerCase().trim();
   function setingIsOpen() {
     setIsOpen(!isOpen);
   }
@@ -28,13 +29,9 @@ export default function CardProjeto(props) {
           onClick={setingIsOpen}
         >
           <motion.div className="logoConteinerOpenned">
-            {tipo === "ensino" && (
-              <FaGraduationCap className="logo-projeto" />
-            )}
+            {tipo === "ensino" && <FaGraduationCap className="logo-projeto" />}
             {tipo === "pesquisa" && <FaSearch className="logo-projeto" />}
-            {tipo === "extensão" && (
-              <MdExtension className="logo-projeto" />
-            )}
+            {tipo === "extensão" && <MdExtension className="logo-projeto" />}
             {tipo === "extensão-desenvolivmento" && (
               <MdOutlineComputer className="logo-projeto" />
             )}
@@ -44,7 +41,11 @@ export default function CardProjeto(props) {
               target="_blank"
               href={props.link}
             >
-              <FaGithub className="Icon" />
+              {link.startsWith("https://github.com/") ? (
+                <FaGithub className="Icon" />
+              ) : (
+                <FaArchive className="Icon" />
+              )}
             </motion.a>
           </motion.div>
 
@@ -66,12 +67,8 @@ export default function CardProjeto(props) {
               {tipo === "ensino" && (
                 <FaGraduationCap className="logo-projeto" />
               )}
-              {tipo === "pesquisa" && (
-                <FaSearch className="logo-projeto" />
-              )}
-              {tipo === "extensão" && (
-                <MdExtension className="logo-projeto" />
-              )}
+              {tipo === "pesquisa" && <FaSearch className="logo-projeto" />}
+              {tipo === "extensão" && <MdExtension className="logo-projeto" />}
               {tipo === "extensão-desenvolivmento" && (
                 <MdOutlineComputer className="logo-projeto" />
               )}
