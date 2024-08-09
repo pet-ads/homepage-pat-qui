@@ -16,7 +16,7 @@
 
 ### 4. Fazendo Modificações
 
-### 4.1 Adicionando Itens
+1. 4.1 Adicionando Itens
 
 Para adicionar um novo item, insira um novo objeto no vetor dentro do arquivo JSON. O vetor é caracterizado por colchetes `[ ]`, enquanto o objeto é caracterizado por chaves `{ }`. Cada atributo dentro do objeto é definido com o nome entre aspas duplas, seguido de dois pontos e o valor correspondente. Se o valor for um texto, ele deve estar envolto em aspas duplas. Para valores decimais, não é necessário o uso de aspas. Para finalizar, o item deve terminar com uma vírgula, caso haja um novo atributo ou objeto para adicionar abaixo.
 

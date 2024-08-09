@@ -1,7 +1,5 @@
 import "./home.css";
 import React from "react";
-import { Purpose } from "./TextConstants/PurposePET";
-import { AboutPET } from "./TextConstants/AboutPETtext";
 import Info from "./SubComponentes/Home_Infos/Infos.js";
 import Button from "./SubComponentes/Home_button/Button";
 import useIsMobile from "../../hooks/window/useIsMobile";
@@ -9,9 +7,11 @@ import ScrollArrow from "./SubComponentes/ScrollArrow/ScrollArrow";
 import Reveal from "../../components/interactive/Efeito Reveal/Reveal";
 import useScrollToSection from "../../hooks/window/useScrollToSection";
 import HeaderConteiner from "./SubComponentes/Header_conteiner/HeaderConteiner";
+import useFetchHome from "../../hooks/fetch/useFetchHome.js";
 
 export default function Home() {
   const isMobile = useIsMobile();
+  const { AboutPET, Purpose } = useFetchHome();
 
   const {
     showArrow: showArrow1,
@@ -37,10 +37,12 @@ export default function Home() {
       />
       <div className="scrolltoView" id="section1" ref={sectionRef1}>
         <Reveal>
-          <Info
-            title="Sobre o PET"
-            content={isMobile ? AboutPET.mobile : AboutPET.desktop}
-          />
+          {AboutPET && (
+            <Info
+              title="Sobre o PET"
+              content={isMobile ? AboutPET.mobile : AboutPET.desktop}
+            />
+          )}
           <Button value="Processo Seletivo" to="/processo-seletivo" />
         </Reveal>
       </div>
@@ -54,10 +56,12 @@ export default function Home() {
 
       <div className="scrolltoView" id="section2" ref={sectionRef2}>
         <Reveal>
-          <Info
-            title="Propósito"
-            content={isMobile ? Purpose.mobile : Purpose.desktop}
-          ></Info>
+          {Purpose && (
+            <Info
+              title="Propósito"
+              content={isMobile ? Purpose.mobile : Purpose.desktop}
+            ></Info>
+          )}
 
           <Button value="Conheça os Projetos" to="/projetos" />
         </Reveal>

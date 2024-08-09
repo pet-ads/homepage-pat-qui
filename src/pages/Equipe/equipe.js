@@ -22,12 +22,12 @@ export default function Equipe() {
                 {tutores.map((tutor) => (
                   <CardTutor
                     key={tutor.id}
-                    github={tutor.github}
+                    //github={tutor.github || "https://github.com"}
                     nome={tutor.nomeTutor}
                     tipo={tutor.tipo}
                     srcFoto={tutor.foto}
                     ano={tutor.ano}
-                    linkedin={tutor.linkedin}
+                    linkedin={tutor.linkedin || "https://www.linkedin.com"}
                   />
                 ))}
               </section>
@@ -39,8 +39,8 @@ export default function Equipe() {
                     srcFoto={aluno.foto}
                     tipo={aluno.tipo}
                     ano={aluno.ano}
-                    github={aluno.github}
-                    linkedin={aluno.linkedin}
+                    //github={aluno.github || "https://github.com"}
+                    linkedin={aluno.linkedin || "https://www.linkedin.com"}
                   />
                 ))}
               </section>
@@ -61,6 +61,7 @@ export default function Equipe() {
                         nome={exTutor.nomeTutor}
                         srcFoto={exTutor.foto}
                         ano={exTutor.ano}
+                        tipo={exTutor.tipo}
                       />
                     ))}
                   </section>
@@ -71,7 +72,7 @@ export default function Equipe() {
                         nome={exAluno.nome}
                         srcFoto={exAluno.foto}
                         anos={exAluno.anos}
-                        linkedin={exAluno.linkedin}
+                        linkedin={exAluno.linkedin || "https://www.linkedin.com"}
                       />
                     ))}
                   </section>

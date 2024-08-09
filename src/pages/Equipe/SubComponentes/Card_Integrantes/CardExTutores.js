@@ -33,13 +33,15 @@ function CardExTutor({ nome, ano, srcFoto, tipo, linkedin }) {
 
       <div className={styles.descricao}>
         <strong>
+          <p className={styles.p}>{nome}</p>
+          <p className={styles.p}>
+            {tipo}: {ano}
+          </p>
+        </strong>
+        {/* <strong>
           <p className={styles.p}>{tipo}</p>
         </strong>
-        <pre></pre>
-        <strong>
-          <p className={styles.p}>Tutor: {ano}</p>
-          <p className={styles.p}>{nome}</p>
-        </strong>
+        <pre></pre> */}
       </div>
     </div>
   );

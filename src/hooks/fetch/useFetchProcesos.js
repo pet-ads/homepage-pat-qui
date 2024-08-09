@@ -14,7 +14,7 @@ const FetchProcessos = ({ render }) => {
         setRequisitos(data.requisitos);
         setIncricao(data.inscricao);
       } catch (e) {
-        console.error(
+        console.log(
           "Ocorreu um erro ao obter os dados de processos seletivos:",
           e
         );

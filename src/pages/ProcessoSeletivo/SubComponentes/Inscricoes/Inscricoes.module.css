@@ -19,21 +19,24 @@
 }
 
 .download {
-  width: auto;
   height: auto;
   margin: auto;
   padding: 20px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 50px;
   border-radius: 7px;
   border: 2px solid var(--cor-detalhes-azul);
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--cor-texto);
 }
+
 .btnDownload {
   width: 35px;
   height: auto;
-  align-self: center;
-  justify-self: center;
-  color: var(--cor-texto);
+  color: inherit;
 }
 
 .encerrado {

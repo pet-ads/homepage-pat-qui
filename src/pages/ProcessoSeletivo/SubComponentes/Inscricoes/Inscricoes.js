@@ -1,4 +1,4 @@
-import { AiOutlineCloudDownload } from "react-icons/ai";
+import { FaFileDownload } from "react-icons/fa";
 import React, { useEffect, useState } from "react";
 import styles from "./Inscricoes.module.css";
 
@@ -15,7 +15,7 @@ function Inscricoes({
   const [body, setBody] = useState("");
 
   useEffect(() => {
-    if (estado && estado.toLowerCase() !== "encerrado") {
+    if (estado && estado.toLowerCase().trim() !== "encerrado") {
       setSubject(
         "Inscrição no Processo Seletivo PET Química - IFSP Campus Sertãozinho"
       );
@@ -57,12 +57,18 @@ function Inscricoes({
         </p>
       )}
       <p className={styles.texto}>{texto_3} </p>
-      <p className={styles.download}>
-        <a href="./Documents/Edital-PET-Quimica.pdf" download={"Edital-PET-Quimica.pdf"} rel="noreferrer" target="_blank">
-          <AiOutlineCloudDownload className={styles.btnDownload} />
-        </a>
-      </p>
+      
+      <a
+        className={styles.download}
+        href="./documents/Edital-PET-Quimica.pdf"
+        download={"Edital-PET-Quimica.pdf"}
+        rel="noreferrer"
+        target="_blank"
+      >
+        <FaFileDownload className={styles.btnDownload} />
+      </a>
     </div>
   );
 }
+
 export default Inscricoes;
