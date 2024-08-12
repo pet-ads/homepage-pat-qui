@@ -3,24 +3,29 @@
 ### 1. Criando uma bifurcação (Fork) do repositório para alterações locais
 
 - Dentro da plataforma Github, navegue até o repositório original e clique no botão **"Fork"** no canto superior direito para criar uma cópia do repositório na sua própria conta do GitHub.
+  
+![image](https://github.com/user-attachments/assets/092957ea-8732-49b9-b16b-663e06f4bc01)
+
+- Adicione um nome para o repositório bifurcado e confirme clicando no botão **"Create Fork"**
+
+![image](https://github.com/user-attachments/assets/ea3ff8e5-533e-4714-a7c4-189becada9de)
+
 
 ### 2. Criar uma Nova Branch
-
-- No repositório "forkado", devemos criar uma nova branch para as modificações. Isso pode ser feito clicando no menu suspenso de branches no canto superior esquerdo do repositório e selecionando **"Create new branch"**.
-- Dê um nome a branch de acordo com as alterações que serão feitas no projeto, como `update-json-values`.
+- No repositório forkado, crie uma nova branch para realizar as modificações. Clique no menu suspenso de branches no canto superior esquerdo e selecione "Create new branch".
+Nomeie a branch de acordo com as alterações que serão feitas, como update-json-values.
 
 ### 3. Editar os Arquivos JSON
-
-- Dentro da pasta `public/data` dentro do repositório forkado e localize os arquivos JSON, caracterizados pela extensão ".json", que precisam ser alterados.
-- Clique no botão "**Edit**" (ícone de lápis) ao lado do arquivo JSON que deseja modificar.
+- No repositório forkado, navegue até a pasta public/data e localize os arquivos JSON (com extensão ".json") que precisam ser alterados.
+Clique no ícone de lápis ("Edit") ao lado do arquivo JSON que deseja modificar.
 
 ### 4. Fazendo Modificações
 
-1. 4.1 Adicionando Itens
+4.1 Adicionando Itens
 
 Para adicionar um novo item, insira um novo objeto no vetor dentro do arquivo JSON. O vetor é caracterizado por colchetes `[ ]`, enquanto o objeto é caracterizado por chaves `{ }`. Cada atributo dentro do objeto é definido com o nome entre aspas duplas, seguido de dois pontos e o valor correspondente. Se o valor for um texto, ele deve estar envolto em aspas duplas. Para valores decimais, não é necessário o uso de aspas. Para finalizar, o item deve terminar com uma vírgula, caso haja um novo atributo ou objeto para adicionar abaixo.
 
-#### Projetos.JSON
+#### [Projetos.JS](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/projetos.json)
 
 Arquivo que contém todos os dados dos projetos pertencentes ao Programa de Educação Tutorial de Química do campus IFSP Sertãozinho.
 
@@ -83,7 +88,7 @@ Depois:
 }
 ```
 
-#### Integrantes.JSON
+#### [Integrantes.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/integrantes.json)
 
 Arquivo que contém todos os dados dos alunos e tutores que participam ou participaram do Programa de Educação Tutorial de Química do campus IFSP Sertãozinho.
 
@@ -153,7 +158,6 @@ Depois:
 
 ```json
 {
- ...
  "exAlunos": [
     {
       "id": "1",
@@ -162,7 +166,6 @@ Depois:
       "linkedin": "https://www.linkedin.com"
    }
  ]
- ...
 }
 ```
 
@@ -170,7 +173,6 @@ Depois:
 
 ```json
 {
- ...
  "exAlunos": [
     {
       "id": "1",
@@ -185,7 +187,6 @@ Depois:
       "linkedin": "https://www.linkedin.com"
    }
  ]
- ...
 }
 ```
 
@@ -292,7 +293,7 @@ Depois:
 }
 ```
 
-#### FAQ.JSON
+#### [FAQ.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/faq.json)
 
 Arquivo que contém todos os dados das perguntas frequentes da página web PET-qui.
 
@@ -339,7 +340,7 @@ Depois:
 
 Para alterar dados em um arquivo JSON, encontre o objeto no vetor que deseja modificar e ajuste os valores dos atributos conforme necessário. Certifique-se de manter a estrutura JSON correta, incluindo aspas duplas para valores de texto e sem aspas para valores decimais.
 
-#### Projetos.JSON
+#### [Projetos.JS](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/projetos.json)
 
 Antes:
 
@@ -379,7 +380,7 @@ Depois:
 }
 ```
 
-#### Integrantes.JSON
+#### [Integrantes.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/integrantes.json)
 
 ##### Atributos do objeto "**aluno**":
 
@@ -524,7 +525,7 @@ Depois:
 }
 ```
 
-#### FAQ.JSON
+#### [FAQ.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/faq.json)
 
 Antes:
 
@@ -558,7 +559,7 @@ Depois:
 
 Para excluir um item de um arquivo JSON, localize o objeto específico que deseja remover dentro do vetor e apague-o, juntamente com a vírgula que o separa de outros itens, se aplicável. Mantenha a estrutura JSON correta para evitar erros.
 
-#### Projetos.JSON
+#### [Projetos.JS](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/projetos.json)
 
 Antes:
 
@@ -608,7 +609,7 @@ Depois:
 }
 ```
 
-#### Integrantes.JSON
+#### [Integrantes.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/integrantes.json)
 
 ##### Atributos do objeto "Aluno":
 
@@ -786,7 +787,7 @@ Depois:
 }
 ```
 
-#### FAQ.JSON
+#### [FAQ.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/faq.json)
 
 Antes:
 
