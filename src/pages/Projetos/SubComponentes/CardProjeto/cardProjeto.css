@@ -5,6 +5,7 @@
   align-items: flex-start;
   background-color: var(--cor-azul__medio);
   overflow: hidden;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 5px 5px 20px rgba(54, 40, 101, 0.5);
 }
 
 .aberto {

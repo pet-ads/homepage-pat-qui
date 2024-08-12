@@ -3,14 +3,14 @@ import "./NotFound.css";
 
 function NotFound() {
   return (
-    <div className="notFound">
-      <div className="cardNotFound">
+    <div className="not-found">
+      <div className="card-not-found">
         <img src="/images/experimento.png" alt="ilustração de um experimento sendo realizado."></img>
-        <h1 className="errorFound">404</h1>
-        <h2 className="textNotFound">
+        <h1 className="error-found">404</h1>
+        <h2 className="text-not-found">
           Ops! O experimento buscado não existe ou não pode ser encontrado.
         </h2>
-        <Link to="/" className="returnHome">
+        <Link to="/" className="return-home">
           Voltar para Home...
         </Link>
       </div>
