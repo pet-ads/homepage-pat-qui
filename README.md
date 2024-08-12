@@ -4,11 +4,11 @@
 
 - Dentro da plataforma Github, navegue até o repositório original e clique no botão **"Fork"** no canto superior direito para criar uma cópia do repositório na sua própria conta do GitHub.
   
-![image](https://github.com/user-attachments/assets/092957ea-8732-49b9-b16b-663e06f4bc01)
+![Botões de ação na interface do GitHub](https://github.com/user-attachments/assets/092957ea-8732-49b9-b16b-663e06f4bc01)
 
 - Adicione um nome para o repositório bifurcado e confirme clicando no botão **"Create Fork"**
 
-![image](https://github.com/user-attachments/assets/ea3ff8e5-533e-4714-a7c4-189becada9de)
+![Tela de criação da bifurcação (Fork) no GitHub](https://github.com/user-attachments/assets/ea3ff8e5-533e-4714-a7c4-189becada9de)
 
 
 ### 2. Criar uma Nova Branch
@@ -839,3 +839,52 @@ Depois:
 ### 7. Revisar e Mergear o Pull Request
 
 - A equipe responsável pelo repositório original pode revisar o pull request e, se aprovado, mesclar as alterações na branch principal do repositório original.
+
+
+# Como rodar o projeto
+
+### 1. Clonando o Repositório:
+
+- Primeiro, clone o repositório para sua máquina local:
+
+```bash
+git clone https://github.com/pet-ads/homepage-pet-qui.git
+cd homepage-pet-qui
+```
+
+### 2. Instalando Dependências:
+
+- Após acessar o diretório do projeto, instale o gerenciador de pacotes Yarn ou Npm e todas as dependências necessárias:
+
+```bash
+yarn install
+```
+
+```bash
+npm install
+```
+
+### 3. Iniciando o Projeto:
+
+- Para iniciar o servidor de desenvolvimento, execute o comando yarn start ou npm start:
+
+```bash
+yarn start
+```
+
+```bash
+npm start
+```
+
+## Boas práticas:
+
+- Sempre que realizar um git clone ou git pull, execute o comando yarn install para garantir que todas as dependências estejam atualizadas.
+- Antes de enviar suas alterações para o repositório remoto, certifique-se de construir o projeto utilizando o comando:
+
+```bash
+yarn build
+```
+
+```bash
+npm build
+```
