@@ -1,4 +1,4 @@
-.notFound {
+.not-found {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,67 +8,74 @@
   box-sizing: border-box;
 }
 
-.cardNotFound {
+.card-not-found {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background-color: var(--cor-azul__medio);
+  background-color: var(--cor-background-2);
   padding: 40px 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 5px 5px 20px rgba(54, 40, 101, 0.5);
   text-align: center;
   width: 60%;
   max-width: 600px;
   margin-top: 20vh;
 }
 
-.errorFound {
+.error-found {
   font-size: 10vw;
-  color: var(--cor-texto);
+  color: var(--cor-azul__claro);
   margin: 0px;
 }
 
-.textNotFound {
-  color: var(--cor-texto__claro);
+.text-not-found {
+  color: var(--cor-azul__claro);
   font-size: 4vw;
   margin: 20px 0px;
 }
 
-.returnHome {
+.return-home {
   text-decoration: none;
   font-weight: bold;
-  color: var(--cor-texto__claro);
+  color: var(--cor-background-2);
   background-color: var(--cor-azul__claro);
   border: 2px solid var(--cor-azul__claro);
   border-radius: 5px;
   padding: 10px 20px;
   transition: background-color 0.3s, color 0.3s, border 0.3s;
   font-size: 3.5vw;
+  margin-top: 10%;
 }
 
-.returnHome:hover,.returnHome:focus {
-  color: var(--cor-azul__claro);
-  background-color: var(--cor-texto__claro);
-  border: 2px solid var(--cor-texto__claro);
+.return-home:hover,
+.return-home:focus {
+  color: var(--cor-background-2);
+  background-color: var(--cor-azul__medio);
+  border-color: var(--cor-azul__medio);
 }
 
-@media screen and (max-width: 1024px) {
-  .cardNotFound {
+@media screen and (min-width: 1024px) {
+  .card-not-found {
     margin-top: 10vh;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .errorFound {
-    font-size: 5rem; /* 80pt */
+  .card-not-found {
+    width: 80%;
   }
 
-  .textNotFound {
-    font-size: 1.25rem; /* 20pt */
+  .error-found {
+    font-size: 5rem;
   }
 
-  .returnHome {
-    font-size: 1rem; /* 16pt */
+  .text-not-found {
+    font-size: 1.25rem;
+  }
+
+  .return-home {
+    font-size: 1rem;
   }
 }
