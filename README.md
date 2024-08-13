@@ -3,25 +3,21 @@
 ### 1. Criando uma bifurcação (Fork) do repositório para alterações locais
 
 - Dentro da plataforma Github, navegue até o repositório original e clique no botão **"Fork"** no canto superior direito para criar uma cópia do repositório na sua própria conta do GitHub.
-  
-![Botões de ação na interface do GitHub](https://github.com/user-attachments/assets/092957ea-8732-49b9-b16b-663e06f4bc01)
-
 - Adicione um nome para o repositório bifurcado e confirme clicando no botão **"Create Fork"**
 
-![Tela de criação da bifurcação (Fork) no GitHub](https://github.com/user-attachments/assets/ea3ff8e5-533e-4714-a7c4-189becada9de)
-
-
 ### 2. Criar uma Nova Branch
-- No repositório forkado, crie uma nova branch para realizar as modificações. Clique no menu suspenso de branches no canto superior esquerdo e selecione "Create new branch".
-Nomeie a branch de acordo com as alterações que serão feitas, como update-json-values.
+
+- No repositório bifurcado, crie uma nova branch para realizar as modificações. Clique no menu suspenso de branches no canto superior esquerdo e selecione "Create new branch".
+  Nomeie a branch de acordo com as alterações que serão feitas, como update-json-values.
 
 ### 3. Editar os Arquivos JSON
-- No repositório forkado, navegue até a pasta public/data e localize os arquivos JSON (com extensão ".json") que precisam ser alterados.
-Clique no ícone de lápis ("Edit") ao lado do arquivo JSON que deseja modificar.
+
+- No repositório bifurcado, navegue até a pasta [public/data](https://github.com/pet-ads/homepage-pet-qui/tree/main/public/data) e localize os arquivos JSON (com extensão ".json") que precisam ser alterados.
+  Clique no ícone de lápis ("Edit") ao lado do arquivo JSON que deseja modificar.
 
 ### 4. Fazendo Modificações
 
-4.1 Adicionando Itens
+#### 4.1 Adicionando Itens no JSON
 
 Para adicionar um novo item, insira um novo objeto no vetor dentro do arquivo JSON. O vetor é caracterizado por colchetes `[ ]`, enquanto o objeto é caracterizado por chaves `{ }`. Cada atributo dentro do objeto é definido com o nome entre aspas duplas, seguido de dois pontos e o valor correspondente. Se o valor for um texto, ele deve estar envolto em aspas duplas. Para valores decimais, não é necessário o uso de aspas. Para finalizar, o item deve terminar com uma vírgula, caso haja um novo atributo ou objeto para adicionar abaixo.
 
@@ -29,7 +25,7 @@ Para adicionar um novo item, insira um novo objeto no vetor dentro do arquivo JS
 
 Arquivo que contém todos os dados dos projetos pertencentes ao Programa de Educação Tutorial de Química do campus IFSP Sertãozinho.
 
-Atributos do objeto "projetos":
+##### Conjunto de dados em "projetos":
 
 * **id** : Identificador único. Tipo texto, utilizando aspas duplas.
 * **tipo** : Representa se o projeto é de "extensão", "pesquisa" ou "extensão-desenvolvimento". Tipo texto, utilizando aspas duplas.
@@ -92,7 +88,7 @@ Depois:
 
 Arquivo que contém todos os dados dos alunos e tutores que participam ou participaram do Programa de Educação Tutorial de Química do campus IFSP Sertãozinho.
 
-##### Atributos do objeto "Aluno":
+##### Conjunto de dados em "Aluno":
 
 * **id** : Identificador único. Tipo texto, utilizando aspas duplas.
 * **nome** : Nome do aluno. Tipo texto, utilizando aspas duplas.
@@ -147,7 +143,7 @@ Depois:
 
 ```
 
-##### Atributos do objeto "**Exaluno**":
+##### Conjunto de dados em "**Exaluno**":
 
 * **id** : Identificador único. Tipo texto, utilizando aspas duplas.
 * **nome** : Nome do aluno(a). Tipo texto, utilizando aspas duplas.
@@ -190,7 +186,7 @@ Depois:
 }
 ```
 
-##### Atributos do objeto "Tutores":
+##### Conjunto de dados em "Tutores":
 
 * **id** : Identificador único. Tipo texto, utilizando aspas duplas.
 * **nomeTutor** : Nome do Tutor(a). Tipo texto, utilizando aspas duplas.
@@ -243,7 +239,7 @@ Depois:
   }
   ```
 
-Atributos do objeto "**Extutores**":
+##### Conjunto de dados em "**Extutores**":
 
 * **id** : Identificador único. Tipo texto, utilizando aspas duplas.
 * **nomeTutor** : Nome do Tutor(a). Tipo texto, utilizando aspas duplas.
@@ -297,7 +293,7 @@ Depois:
 
 Arquivo que contém todos os dados das perguntas frequentes da página web PET-qui.
 
-Atributos do objeto "faqs":
+##### Conjunto de dados em "faqs":
 
 - **id** : Identificador único. Tipo texto, utilizando aspas duplas.
 - **trigger :** Representa a questão que está sendo levantada. Tipo texto, utilizando aspas duplas.
@@ -336,11 +332,48 @@ Depois:
 }
 ```
 
-### 4.2 Alterando itens do JSON
+### 4.2 Alterando valores do JSON
 
 Para alterar dados em um arquivo JSON, encontre o objeto no vetor que deseja modificar e ajuste os valores dos atributos conforme necessário. Certifique-se de manter a estrutura JSON correta, incluindo aspas duplas para valores de texto e sem aspas para valores decimais.
 
-#### [Projetos.JS](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/projetos.json)
+#### [Home.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/home.json)
+
+Os atributos no arquivo Home.json são fixos na página inicial e consistem no texto de apresentação e no propósito da página. Portanto, não é permitido adicionar ou excluir atributos, apenas modificar o conteúdo existente. O arquivo contém dois objetos principais: AboutPET e Purpose, que possuem as chaves desktop e mobile. O valor dessas chaves armazenam o texto que será exibido em diferentes tamanhos de tela, seja em um computador padrão ou em um dispositivo móvel. Ao Alterar o texto, é importante manter uma quantidade semelhante de caracteres à versão anterior.
+
+Antes:
+
+```json
+{
+    "AboutPET": {
+        "desktop": "O Programa de Educação Tutorial (PET) é uma iniciativa do governo federal brasileiro voltada para estimular atividades de pesquisa, ensino e extensão no nível de graduação.Inaugurado em 1979 pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) como Programa Especial de Treinamento, o PET tinha como objetivo inicial formar um grupo de elite intelectual dedicado à pesquisa e estudo. Em 2004, foi renomeado para Programa de Educação Tutorial, adotando uma nova filosofia. Segundo a Secretaria de Educação Superior (SESu), os objetivos do PET incluem aprimorar o ensino de graduação, formar academicamente os alunos, promover a interdisciplinaridade e executar atividades acadêmicas diversificadas por meio de grupos tutoriais. Desde sua expansão significativa entre 2006 e 2012, o PET conta atualmente com 842 grupos em 121 Instituições de Ensino Superior em todo o Brasil. O PetQuímica baseia-se em grupos tutoriais de aprendizagem orientados por um professor tutor, desenvolvendo e realizando atividades extracurriculares para toda a comunidade interna e externa do câmpus Sertãozinho.",
+    
+        "mobile": "O Programa de Educação Tutorial (PET) é uma iniciativa do governo federal brasileiro voltada para estimular atividades de pesquisa, ensino e extensão no nível de graduação. Desde sua significativa expansão entre 2006 e 2012, o programa atualmente engloba 842 grupos em 121 Instituições de Ensino Superior pelo Brasil. O PetQuímica baseia-se em grupos tutoriais de aprendizagem orientados por um professor tutor, os quais desenvolvem e realizam atividades extracurriculares para toda a comunidade interna e externa do câmpus Sertãozinho."
+      },
+      "Purpose": {
+        "desktop": "O Programa de Educação Tutorial (PET) é desenvolvido por grupos de acadêmicos sob a orientação de um docente, organizados a partir dos cursos de graduação das Instituições de Ensino Superior do país. Seu princípio fundamental é integrar ensino, pesquisa e extensão através da educação tutorial.Os objetivos do programa incluem promover atividades acadêmicas de alta qualidade por meio de grupos de aprendizagem coletiva e interdisciplinar, aprimorar a formação acadêmica dos alunos de graduação, incentivar a capacitação de profissionais e docentes altamente qualificados, formular novas estratégias para o desenvolvimento e modernização do ensino superior no Brasil, e cultivar um espírito crítico e uma atuação profissional ética e cidadã.",
+        "mobile": "O Programa de Educação Tutorial (PET) é desenvolvido por grupos de acadêmicos sob a orientação de um docente, organizados a partir dos cursos de graduação das Instituições de Ensino Superior do país. Seu princípio fundamental é integrar ensino, pesquisa e extensão através da educação tutorial.Os objetivos do programa incluem promover atividades acadêmicas de alta qualidade por meio de grupos de aprendizagem coletiva e interdisciplinar, aprimorar a formação acadêmica dos alunos de graduação, incentivar a capacitação de profissionais e docentes altamente qualificados, formular novas estratégias para o desenvolvimento e modernização do ensino superior no Brasil, e cultivar um espírito crítico e uma atuação profissional ética e cidadã."
+      }
+
+}
+```
+
+Depois:
+
+```json
+{
+    "AboutPET": {
+        "desktop": "O Programa de Educação Tutorial (PET) é uma iniciativa do governo federal brasileiro voltada para estimular atividades de pesquisa, ensino e extensão no nível de graduação.Inaugurado em 1979 pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) como Programa Especial de Treinamento, o PET tinha como objetivo inicial formar um grupo de elite intelectual dedicado à pesquisa e estudo. Em 2004, foi renomeado para Programa de Educação Tutorial, adotando uma nova filosofia. Segundo a Secretaria de Educação Superior (SESu), os objetivos do PET incluem aprimorar o ensino de graduação, formar academicamente os alunos, promover a interdisciplinaridade e executar atividades acadêmicas diversificadas por meio de grupos tutoriais.",
+    
+        "mobile": "O Programa de Educação Tutorial (PET) é uma iniciativa do governo federal brasileiro voltada para estimular atividades de pesquisa, ensino e extensão no nível de graduação. Desde sua significativa expansão entre 2006 e 2012, o programa atualmente engloba 842 grupos em 121 Instituições de Ensino Superior pelo Brasil. O PetQuímica baseia-se em grupos tutoriais de aprendizagem orientados por um professor tutor, os quais desenvolvem e realizam atividades extracurriculares para toda a comunidade interna e externa do câmpus Sertãozinho."
+      },
+      "Purpose": {
+        "desktop": "O Programa de Educação Tutorial (PET) é desenvolvido por grupos de acadêmicos sob a orientação de um docente, organizados a partir dos cursos de graduação das Instituições de Ensino Superior do país. Seu princípio fundamental é integrar ensino, pesquisa e extensão através da educação tutorial.Os objetivos do programa incluem promover atividades acadêmicas de alta qualidade por meio de grupos de aprendizagem coletiva e interdisciplinar, aprimorar a formação acadêmica dos alunos de graduação, incentivar a capacitação de profissionais e docentes altamente qualificados, formular novas estratégias para o desenvolvimento e modernização do ensino superior no Brasil, e cultivar um espírito crítico e uma atuação profissional ética e cidadã.",
+        "mobile": "O Programa de Educação Tutorial (PET) é desenvolvido por grupos de acadêmicos sob a orientação de um docente, organizados a partir dos cursos de graduação das Instituições de Ensino Superior do país. Seu princípio fundamental é integrar ensino, pesquisa e extensão através da educação tutorial."
+      }
+}
+```
+
+#### [Projetos.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/projetos.json)
 
 Antes:
 
@@ -382,7 +415,7 @@ Depois:
 
 #### [Integrantes.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/integrantes.json)
 
-##### Atributos do objeto "**aluno**":
+##### Conjunto de dados em "**aluno**":
 
 Antes:
 
@@ -419,7 +452,7 @@ Depois:
 }
 ```
 
-##### Atributos do objeto "**Exaluno**";
+##### Conjunto de dados em "**Exaluno**";
 
 Antes:
 
@@ -451,7 +484,7 @@ Depois:
 }
 ```
 
-##### Atributos do objeto "**tutores**":
+##### Conjunto de dados em "**tutores**":
 
 Antes:
 
@@ -489,7 +522,7 @@ Depois:
 }
 ```
 
-##### Atributos do objeto "**extutores**":
+##### Conjunto de dados em "**extutores**":
 
 Antes:
 
@@ -525,6 +558,69 @@ Depois:
 }
 ```
 
+#### [Processos.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/processos.json)
+
+Assim como na alteração do arquivo Home.json, o conteúdo dentro de Processos.json não deve ter objetos adicionados ou removidos, apenas os valores das chaves existentes devem ser modificados. O arquivo contém três objetos principais: cabecalho, requisitos, e inscricao, que armazenam os textos exibidos em cada seção da tela de "Processo Seletivo".
+
+Antes:
+
+```json
+{
+    "cabecalho":
+        {
+            "titulo":"Processo Seletivo",
+            "texto":"Todos os estudantes regularmente matriculados no curso de Licenciatura em Química do IFSP câmpus São Sertãozinho podem participar dos processos seletivos do PetQuímica. O grupo é composto por até doze bolsistas e até seis voluntários.  Os processos seletivos são regidos por editais publicados periodicamente."
+        }
+    ,
+    "requisitos":
+        {
+            "titulo":"Requisitos",
+            "texto":"Para se inscrever no processo seletivo, o candidato deverá:",
+            "item_1":"Estar regularmente matriculado no curso de Licenciatura em Química.",
+            "item_2":"Possuir disponibilidade para se dedicar 20 horas semanais ao Pet/Química.",
+            "item_3":"Apresentar média geral (IRA) igual ou superior a 6,0."
+        }
+    ,
+    "inscricao":
+        {
+        "titulo":"Inscrições",
+        "texto_1":"As inscrições devem ser realizadas pelo e-mail",
+        "email":"petquisrt@gmail.com",
+        "texto_2":"Prazo de inscrição:",
+        "data":"11 a 15 de março de 2024",
+        "estado":"encerrado",
+        "texto_3":"Clique no botão abaixo para baixar os detalhes sobre documentos necessários, critérios, cronograma e outras informações:"
+    }
+}
+```
+
+Depois:
+
+```json
+{
+    "cabecalho": {
+        "titulo":"Processo Seletivo",
+        "texto":"Todos os estudantes regularmente matriculados no curso de Licenciatura em Química do IFSP câmpus São Sertãozinho podem participar dos processos seletivos do PetQuímica. O grupo é composto por até doze bolsistas e até seis voluntários.  Os processos seletivos são regidos por editais publicados periodicamente."
+    },
+    "requisitos": {
+        "titulo":"Requisitos",
+        "texto":"Para se inscrever no processo seletivo, o candidato deverá:",
+        "item_1":"Estar regularmente matriculado no curso de Licenciatura em Química.",
+        "item_2":"Possuir disponibilidade para se dedicar 20 horas semanais ao Pet/Química.",
+        "item_3":"Apresentar média geral (IRA) igual ou superior a 6,5."
+    },
+    "inscricao": {
+        "titulo":"Inscrições",
+        "texto_1":"As inscrições devem ser realizadas pelo e-mail",
+        "email":"petquisrt@gmail.com",
+        "texto_2":"Prazo de inscrição:",
+        "data":"02 a 06 de setembro de 2024",
+        "estado":"aberto",
+        "texto_3":"Clique no botão abaixo para baixar os detalhes sobre documentos necessários, critérios, cronograma e outras informações:"
+    }
+}
+```
+
 #### [FAQ.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/faq.json)
 
 Antes:
@@ -555,7 +651,7 @@ Depois:
 }
 ```
 
-### 4.3 Excluindo itens
+### 4.3 Excluindo itens no JSON
 
 Para excluir um item de um arquivo JSON, localize o objeto específico que deseja remover dentro do vetor e apague-o, juntamente com a vírgula que o separa de outros itens, se aplicável. Mantenha a estrutura JSON correta para evitar erros.
 
@@ -832,14 +928,13 @@ Depois:
 ### 6. Criar um Pull Request
 
 - Depois de confirmar as alterações, deve-se criar um pull request para solicitar que as mudanças sejam integradas ao repositório original.
-- Navegue até a página de Pull Requests do repositório forkado e clique no botão **"New pull request"**.
+- Navegue até a página de Pull Requests do repositório bifurcado e clique no botão **"New pull request"**.
 - Selecione a branch com as mudanças (por exemplo, `update-json-values`) e clique em **"Create pull request"**.
 - Adicione uma descrição e clique em **"Create pull request"** novamente para finalizar.
 
 ### 7. Revisar e Mergear o Pull Request
 
 - A equipe responsável pelo repositório original pode revisar o pull request e, se aprovado, mesclar as alterações na branch principal do repositório original.
-
 
 # Como rodar o projeto
 
@@ -878,7 +973,16 @@ npm start
 
 ## Boas práticas:
 
-- Sempre que realizar um git clone ou git pull, execute o comando yarn install para garantir que todas as dependências estejam atualizadas.
+- Sempre que realizar um git clone ou git pull, execute o comando yarn install ou npm install para garantir que todas as dependências estejam atualizadas.
+
+```bash
+yarn install
+```
+
+```bash
+npm install
+```
+
 - Antes de enviar suas alterações para o repositório remoto, certifique-se de construir o projeto utilizando o comando:
 
 ```bash
