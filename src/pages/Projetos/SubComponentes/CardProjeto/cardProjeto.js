@@ -7,7 +7,7 @@ import { MdExtension, MdOutlineComputer } from "react-icons/md";
 export default function CardProjeto(props) {
   const [isOpen, setIsOpen] = useState(false);
   const tipo = props.tipo.toLowerCase().trim();
-  const link = props.link.toLowerCase().trim();
+  const link = props.link.trim();
   function setingIsOpen() {
     setIsOpen(!isOpen);
   }
@@ -78,7 +78,11 @@ export default function CardProjeto(props) {
                 target="_blank"
                 href={props.link}
               >
-                <FaGithub className="icon-aberto" />
+                {link.startsWith("https://github.com/") ? (
+                <FaGithub className="Icon-aberto" />
+              ) : (
+                <FaArchive className="Icon" />
+              )}
               </motion.a>
             </motion.div>
             <AiFillCloseCircle
