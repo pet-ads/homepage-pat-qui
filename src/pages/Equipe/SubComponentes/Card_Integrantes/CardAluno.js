@@ -17,6 +17,21 @@ function CardAluno({ nome, srcFoto, tipo, github, linkedin }) {
         onMouseEnter={() => setBlur(withBlur)}
         onMouseLeave={() => setBlur(noBlur)}
       >
+        {
+          srcFoto && srcFoto !== "" ? (<img
+            style={blurred}
+            className={styles.img}
+            src={srcFoto}
+            alt={altFoto}
+          />) : (
+            <img
+          style={blurred}
+          className={styles.img}
+          src="images/fotos_alunos/pessoa_sem_foto.png"
+          alt={altFoto}
+        />
+          )
+        }
         <img
           style={blurred}
           className={styles.img}
