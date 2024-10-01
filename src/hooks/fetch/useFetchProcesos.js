@@ -1,29 +1,39 @@
 import { useState, useEffect } from "react";
 
-const FetchProcessos = ({ render }) => {
-  const [cabecalho, setcabecalho] = useState({});
+function useFetchProcessos() {
+  const FETCH_URL = "./data/processos.json";
+  const [inscricao, setInscricao] = useState({});
   const [requisitos, setRequisitos] = useState({});
-  const [inscricao, setIncricao] = useState({});
+  const [informacoes, setInformacoes] = useState("");
 
   useEffect(() => {
     const getProcessos = async () => {
       try {
-        const response = await fetch("./data/processos.json");
+        const response = await fetch(FETCH_URL);
+        if (!response.ok)
+          throw new Error(
+            `Falha na requisição ao servidor. Status: ${response.status}`
+          );
         const data = await response.json();
-        setcabecalho(data.cabecalho);
-        setRequisitos(data.requisitos);
-        setIncricao(data.inscricao);
+        const {
+          inscricoesContent,
+          requisitosContent,
+          processoSeletivoContent,
+        } = data;
+
+        setInscricao(inscricoesContent);
+        setRequisitos(requisitosContent);
+        setInformacoes(processoSeletivoContent);
       } catch (e) {
         console.log(
-          "Ocorreu um erro ao obter os dados de processos seletivos:",
-          e
+          `Ocorreu um erro ao requisitar os dados de processo seletivo: ${e}.`
         );
       }
     };
     getProcessos();
   }, []);
 
-  return render({ cabecalho, requisitos, inscricao });
-};
+  return { inscricao, requisitos, informacoes };
+}
 
-export default FetchProcessos;
+export default useFetchProcessos;
