@@ -110,15 +110,21 @@
     },
     {
       "id": "13",
-      "nome": "Carolina V. Hayashi",
-      "foto": "./images/fotos_alunos/Carolina-Hayashi.jpeg",
+      "nome": "Pedro H. R. Pereira",
+      "foto": "",
       "tipo": "Bolsista",
-      "anos": "2021",
+      "ano": "2° ano",
       "github": "",
-      "linkedin": "https://www.linkedin.com/in/carolina-veronica-hayashi-002993116"
+      "linkedin": "https://www.linkedin.com/in/stefanie-danelon-8ab001163?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
   ],
-  "exAlunos": [],
+  "exAlunos": [ {
+    "id": "1",
+    "nome": "Carolina V. Hayashi",
+    "foto": "./images/fotos_alunos/Carolina-Hayashi.jpeg",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/carolina-veronica-hayashi-002993116"
+  }],
   "tutores": [
     {
       "id": "1",
