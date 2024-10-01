@@ -1,9 +1,11 @@
 import { FaGithub } from "react-icons/fa";
 import styles from "./footer.module.css";
+import DigitalPlatforms from "./subcomponent/digitalPlataforms";
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
+      <DigitalPlatforms/>
       <a
         className={styles.gitIcon}
         href="https://github.com/pet-ads"

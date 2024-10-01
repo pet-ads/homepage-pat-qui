@@ -1,71 +1,46 @@
-import { FaFileDownload } from "react-icons/fa";
-import React, { useEffect, useState } from "react";
+import { AiOutlineCloudDownload } from "react-icons/ai";
 import styles from "./Inscricoes.module.css";
+import useFetchProcessos from "../../../../hooks/fetch/useFetchProcesos";
 
-function Inscricoes({
-  titulo,
-  texto_1,
-  email,
-  texto_2,
-  data,
-  estado,
-  texto_3,
-}) {
-  const [subject, setSubject] = useState("");
-  const [body, setBody] = useState("");
-
-  useEffect(() => {
-    if (estado && estado.toLowerCase().trim() !== "encerrado") {
-      setSubject(
-        "Inscrição no Processo Seletivo PET Química - IFSP Campus Sertãozinho"
-      );
-      setBody(
-        "Olá,%0D%0A%0D%0AGostaria de obter mais informações sobre o edital do processo seletivo do PET Química do IFSP Campus Sertãozinho. Estou interessado em participar do edital vigente do programa e gostaria de esclarecer algumas dúvidas que não estão disponíveis no site sobre os documentos necessários, critérios de seleção, cronograma e outras informações relevantes.%0D%0A%0D%0AAgradeço antecipadamente pela sua atenção e aguardo seu retorno.%0D%0A%0D%0AAtenciosamente,%0D%0A%0D%0A[Seu Nome]%0D%0A[Seu E-mail]"
-      );
-    } else {
-      setSubject(
-        "Informações sobre futuros editais do PET Química - IFSP Campus Sertãozinho"
-      );
-      setBody(
-        "Olá,%0D%0A%0D%0AGostaria de obter mais informações sobre quando serão publicados novos editais para o processo seletivo do PET Química do IFSP Campus Sertãozinho. Estou interessado em participar do programa futuramente e gostaria de esclarecer algumas dúvidas que não estão disponíveis no site sobre os documentos necessários, critérios de seleção, cronograma e outras informações relevantes.%0D%0A%0D%0AAgradeço antecipadamente pela sua atenção e aguardo seu retorno.%0D%0A%0D%0AAtenciosamente,%0D%0A%0D%0A[Seu Nome]%0D%0A[Seu E-mail]"
-      );
-    }
-  }, [estado]);
+function Inscricoes() {
+  const { inscricao } = useFetchProcessos();
 
   return (
     <div className={styles.Inscricao}>
-      <h2 className={styles.titulo}>{titulo}</h2>
+      <h2 className={styles.titulo}>Inscrições</h2>
       <p className={styles.texto}>
-        {texto_1}{" "}
+        {inscricao.introducao} {""}
         <a
           className={styles.email}
-          href={`mailto:${email}?subject=${subject}&body=${body}`}
+          href={`mailto:${inscricao.email}?subject=Processo Seletivo PET Química - IFSP Campus Sertãozinho`}
           target="_blank"
           rel="noreferrer"
         >
-          {email}
+          {inscricao.email}
         </a>
-        .
       </p>
-      {estado && estado.toLowerCase().trim() === "encerrado" ? (
+      {inscricao.estado &&
+      inscricao.estado.trim().toLowerCase() === "encerrado" ? (
         <p className={styles.texto}>
-          {texto_2} <span className={styles.encerrado}>{data}</span> ({estado}).
+          {inscricao.prazo}{" "}
+          <span className={styles.encerrado}>{inscricao.data}</span> (
+          {inscricao.estado})
         </p>
       ) : (
         <p className={styles.texto}>
-          {texto_2} {data} ({estado}).
+          {inscricao.prazo}{" "}
+          <span className={styles.ativo}>{inscricao.data}</span> (
+          {inscricao.estado})
         </p>
       )}
-      <p className={styles.texto}>{texto_3} </p>
-      
+      <p className={styles.texto}>{inscricao.detalhes} </p>
       <a
         className={styles.download}
-        href="./documents/Edital-PET-Quimica.pdf"
-        download={"Edital-PET-Quimica.pdf"}
+        href={inscricao.drive}
         rel="noreferrer"
         target="_blank"
       >
-        <FaFileDownload className={styles.btnDownload} />
+        <AiOutlineCloudDownload className={styles.btnDownload} />
       </a>
     </div>
   );

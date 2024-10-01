@@ -1,27 +1,33 @@
 {
-    "cabecalho":
+    "processoSeletivoContent":
         {
-            "titulo":"Processo Seletivo",
-            "texto":"Todos os estudantes regularmente matriculados no curso de Licenciatura em Química do IFSP câmpus São Sertãozinho podem participar dos processos seletivos do PetQuímica. O grupo é composto por até doze bolsistas e até seis voluntários.  Os processos seletivos são regidos por editais publicados periodicamente."
+            "content":"Todos os estudantes regularmente matriculados no curso de Licenciatura em Química do IFSP câmpus São Sertãozinho podem participar dos processos seletivos do PetQuímica. O grupo é composto por até doze bolsistas e até seis voluntários.  Os processos seletivos são regidos por editais publicados periodicamente."
         }
     ,
-    "requisitos":
+    "requisitosContent":
         {
-            "titulo":"Requisitos",
-            "texto":"Para se inscrever no processo seletivo, o candidato deverá:",
-            "item_1":"Estar regularmente matriculado no curso de Licenciatura em Química.",
-            "item_2":"Possuir disponibilidade para se dedicar 20 horas semanais ao Pet/Química.",
-            "item_3":"Apresentar média geral (IRA) igual ou superior a 6,0."
+            "introducao":"Para se inscrever no processo seletivo, o candidato deverá:",
+            "requirements": [
+                {
+                    "text": "Estar regularmente matriculado no curso de Licenciatura em Química."
+                },
+                {
+                    "text": "Possuir disponibilidade para se dedicar 20 horas semanais ao Pet/Química."
+                },
+                {
+                    "text" : "Apresentar média geral (IRA) igual ou superior a 6,0."
+                }
+            ]
         }
     ,
-    "inscricao":
+    "inscricoesContent":
         {
-        "titulo":"Inscrições",
-        "texto_1":"As inscrições devem ser realizadas pelo e-mail",
-        "email":"petquisrt@gmail.com",
-        "texto_2":"Prazo de inscrição:",
+        "introducao":"As inscrições devem ser realizadas pelo e-mail",
+        "prazo":"Prazo de inscrição:",
         "data":"11 a 15 de março de 2024",
+        "email":"petquisrt@gmail.com",
         "estado":"encerrado",
-        "texto_3":"Clique no botão abaixo para baixar os detalhes sobre documentos necessários, critérios, cronograma e outras informações:"
+        "detalhes":"Clique no botão abaixo para saber mais detalhes sobre os documentos necessários, critérios, cronograma e outras informações.:",
+        "drive": "https://drive.google.com/file/d/1p2FTl3keIMoGsATUQ5JZ_0P70vfMp7cZ/view"
     }
 }
